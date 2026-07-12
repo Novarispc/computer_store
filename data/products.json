@@ -1,0 +1,5499 @@
+[
+  {
+    "slug": "foxin-crystal19",
+    "name": "Foxin CRYSTAL19",
+    "model": "CRYSTAL19",
+    "brandSlug": "foxin",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 310000,
+    "warranty": "1 year",
+    "shortDesc": "19'' CRYSTAL19 TN1440x900 HDMI+VGA YES 1YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "19''"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+VGA"
+      }
+    ]
+  },
+  {
+    "slug": "zebronics-z-e19hd",
+    "name": "Zebronics Z-E19HD",
+    "model": "Z-E19HD",
+    "brandSlug": "zebronics",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 330000,
+    "warranty": "1 year",
+    "shortDesc": "19'' Z-E19HD LED TN1366 x 768 HDMI+VGA YES 1YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "19''"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+VGA"
+      }
+    ]
+  },
+  {
+    "slug": "geonix-19gxtf-wvhdf185tn1366",
+    "name": "Geonix 19GXTF-WVHDF185TN1366",
+    "model": "19GXTF-WVHDF185TN1366",
+    "brandSlug": "geonix",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 350000,
+    "warranty": "3 years",
+    "shortDesc": "19''GXTF-WVHDF185TN1366 x 768 HDMI YES 3YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "19''"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "fingers-ips1366",
+    "name": "Fingers IPS1366",
+    "model": "IPS1366",
+    "brandSlug": "fingers",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 550000,
+    "warranty": "3 years",
+    "shortDesc": "19'' 1850 SATIN IPS1366 x 768 VGA + HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "19''"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-d19185ad0",
+    "name": "Lenovo D19185AD0",
+    "model": "D19185AD0",
+    "brandSlug": "lenovo",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 610000,
+    "warranty": "3 years",
+    "shortDesc": "19'' D19185AD0 TN1366 x 768 VGA+ HDMI YES 3YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "19''"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA+ HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "lg-19m38h",
+    "name": "LG 19M38H",
+    "model": "19M38H",
+    "brandSlug": "lg",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 575000,
+    "warranty": "3 years",
+    "shortDesc": "19\" 19M38H TN 1366 x 768 VGA+HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "19\""
+      },
+      {
+        "key": "Resolution",
+        "value": "1366 x 768"
+      },
+      {
+        "key": "Panel",
+        "value": "TN"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA+HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "lapcare-lm19",
+    "name": "Lapcare LM19",
+    "model": "LM19",
+    "brandSlug": "lapcare",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 400000,
+    "warranty": "3 years",
+    "shortDesc": "19'' LM19 WDH TN1440x900 VGA+HDMI YES 3YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "19''"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA+HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "foxin-fm1950",
+    "name": "Foxin FM1950",
+    "model": "FM1950",
+    "brandSlug": "foxin",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 325000,
+    "warranty": "1 year",
+    "shortDesc": "20'' FM1950 TN1440x900 HDMI+VGA YES 1YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "20''"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+VGA"
+      }
+    ]
+  },
+  {
+    "slug": "lapcare-lm21",
+    "name": "Lapcare LM21",
+    "model": "LM21",
+    "brandSlug": "lapcare",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 450000,
+    "warranty": "3 years",
+    "shortDesc": "20'' LM21 WHD TN1600x900 VGA+HDMI YES 3YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "20''"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA+HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "viewsonic-vas2025h",
+    "name": "ViewSonic VAS2025H",
+    "model": "VAS2025H",
+    "brandSlug": "viewsonic",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 590000,
+    "warranty": "3 years",
+    "shortDesc": "20\" VAS2025H TN1366 x 768 VGA+HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "20\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA+HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "dell-e2020h",
+    "name": "Dell E2020H",
+    "model": "E2020H",
+    "brandSlug": "dell",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 635000,
+    "warranty": "3 years",
+    "shortDesc": "20\" E2020H TN 1366 x 768 VGA+DP YES 3YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "20\""
+      },
+      {
+        "key": "Resolution",
+        "value": "1366 x 768"
+      },
+      {
+        "key": "Panel",
+        "value": "TN"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA+DP"
+      }
+    ]
+  },
+  {
+    "slug": "lg-20m39h",
+    "name": "LG 20M39H",
+    "model": "20M39H",
+    "brandSlug": "lg",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 620000,
+    "warranty": "3 years",
+    "shortDesc": "20\" 20M39H TN 1366 x 768 HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "20\""
+      },
+      {
+        "key": "Resolution",
+        "value": "1366 x 768"
+      },
+      {
+        "key": "Panel",
+        "value": "TN"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "acer-v206q",
+    "name": "Acer V206Q",
+    "model": "V206Q",
+    "brandSlug": "acer",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 590000,
+    "warranty": "3 years",
+    "shortDesc": "20\" V206Q TN1366 x 768 VGA + HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "20\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "zebronics-z-gv222",
+    "name": "Zebronics Z-GV222",
+    "model": "Z-GV222",
+    "brandSlug": "zebronics",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 400000,
+    "warranty": "3 years",
+    "shortDesc": "22\"FHD Z-GV222 VA1920*1080 VGA + HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "22\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "foxin-whitefm220",
+    "name": "Foxin WHITEFM220",
+    "model": "WHITEFM220",
+    "brandSlug": "foxin",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 590000,
+    "warranty": "3 years",
+    "shortDesc": "22\"FHD BORDER LESS WHITEFM220 IPS1920*1080 VGA + HDMI NO 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "22\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "foxin-curvefm4010",
+    "name": "Foxin CURVEFM4010",
+    "model": "CURVEFM4010",
+    "brandSlug": "foxin",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 590000,
+    "warranty": "3 years",
+    "shortDesc": "22\"FHD BORDER LESS WHITE CURVEFM4010 ELITEVA1920*1080 VGA + HDMI NO 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "22\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "acer-ek220",
+    "name": "Acer EK220",
+    "model": "EK220",
+    "brandSlug": "acer",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 650000,
+    "warranty": "3 years",
+    "shortDesc": "22\"FHD EK220 Q VA1920*1080 VGA + HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "22\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "viewsonic-va2215",
+    "name": "ViewSonic VA2215",
+    "model": "VA2215",
+    "brandSlug": "viewsonic",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 590000,
+    "warranty": "3 years",
+    "shortDesc": "22\"FHD VA2215 VA1920*1080 VGA+HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "22\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA+HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-67d5",
+    "name": "Lenovo 67D5",
+    "model": "67D5",
+    "brandSlug": "lenovo",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 750000,
+    "warranty": "3 years",
+    "shortDesc": "22\"FHD 67D5 KAC6 WWIPS1920*1080 VGA+HDMI YES 3YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "22\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA+HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "fingers-va1920-1080",
+    "name": "Fingers VA1920*1080",
+    "model": "VA1920*1080",
+    "brandSlug": "fingers",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 590000,
+    "warranty": "3 years",
+    "shortDesc": "22\" FHD BORDLESS SATIN 2150 VA1920*1080 VGA + HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "22\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "dell-se2225hm",
+    "name": "Dell SE2225HM",
+    "model": "SE2225HM",
+    "brandSlug": "dell",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 740000,
+    "warranty": "3 years",
+    "shortDesc": "22\"FHD SE2225HM VA1920*1080 VGA + HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "22\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-ls22d300",
+    "name": "Samsung LS22D300",
+    "model": "LS22D300",
+    "brandSlug": "samsung",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 760000,
+    "warranty": "3 years",
+    "shortDesc": "22\"FHD BOARDLESS LS22D300 GAWXXLIPS1920*1080 HDMI+VGA YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "22\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+VGA"
+      }
+    ]
+  },
+  {
+    "slug": "aoc-22b30hm2",
+    "name": "AOC 22B30HM2",
+    "model": "22B30HM2",
+    "brandSlug": "aoc",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 625000,
+    "warranty": "3 years",
+    "shortDesc": "22\" FHD FRAMELESS22B30HM2 VA1920*1081 HDMI+VGA YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "22\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+VGA"
+      }
+    ]
+  },
+  {
+    "slug": "lg-22mr410",
+    "name": "LG 22MR410",
+    "model": "22MR410",
+    "brandSlug": "lg",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 720000,
+    "warranty": "3 years",
+    "shortDesc": "22\" FHD BORDERLESS22MR410 VA1920*1080 HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "22\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "benq-bordlessgw2283",
+    "name": "BenQ BORDLESSGW2283",
+    "model": "BORDLESSGW2283",
+    "brandSlug": "benq",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 860000,
+    "warranty": "3 years",
+    "shortDesc": "22\"FHD BORDLESSGW2283 IPS1920*1080 VGA + HDMI YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "22\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "acer-240y",
+    "name": "Acer 240Y",
+    "model": "240Y",
+    "brandSlug": "acer",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 750000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD IPS BORDLESSEK240Y IPS1920*1080 VGA + HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "benq-bordlessgw2490",
+    "name": "BenQ BORDLESSGW2490",
+    "model": "BORDLESSGW2490",
+    "brandSlug": "benq",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 950000,
+    "warranty": "3 years",
+    "shortDesc": "24\"FHD IPS BORDLESSGW2490 IPS1920*1080 HDMI YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "consistent-borderlesswhitecmt2400",
+    "name": "Consistent BORDERLESSWHITECMT2400",
+    "model": "BORDERLESSWHITECMT2400",
+    "brandSlug": "consistent",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 660000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD BORDERLESSWHITECMT2400 IPS1920*1080 VGA+HDMI NO 3YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA+HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "frontech-va1920-1080",
+    "name": "Frontech VA1920*1080",
+    "model": "VA1920*1080",
+    "brandSlug": "frontech",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 690000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD BORDERLESSWHITE CURVEDULTIMA 24 VA1920*1080 VGA+HDMI NO 3YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA+HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "dell-se2425hm",
+    "name": "Dell SE2425HM",
+    "model": "SE2425HM",
+    "brandSlug": "dell",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 950000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD IPS SE2425HM IPS1920*1080 HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "dell-2425h",
+    "name": "Dell 2425H",
+    "model": "2425H",
+    "brandSlug": "dell",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 1050000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD IPS BORDLESS WHITES2425H IPS1920*1080 HDMI YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-24i-4a",
+    "name": "Lenovo 24I-4A",
+    "model": "24I-4A",
+    "brandSlug": "lenovo",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 950000,
+    "warranty": "3 years",
+    "shortDesc": "24\"FHD WHITE BORDERLESSL24I-4A IPS 1920*1080 VGA+HDMI YES 3YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Resolution",
+        "value": "1920*1080"
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA+HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-24d368",
+    "name": "Samsung 24D368",
+    "model": "24D368",
+    "brandSlug": "samsung",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 840000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD CURVE BORDLESSLS24D368 GAWXXLVA 1920*1080 HDMI+DP YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Resolution",
+        "value": "1920*1080"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-24d300",
+    "name": "Samsung 24D300",
+    "model": "24D300",
+    "brandSlug": "samsung",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 850000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD IPS BORDLESSLS24D300 GAWXXLIPS 1920*1080 HDMI+DP YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Resolution",
+        "value": "1920*1080"
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "lg-24gs60f",
+    "name": "LG 24GS60F",
+    "model": "24GS60F",
+    "brandSlug": "lg",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 1150000,
+    "warranty": "3 years",
+    "shortDesc": "24\"FHD IPS BORDLESS 24GS60F IPS1920*1080 VGA + HDMI+DPYES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "aoc-24p2c",
+    "name": "AOC 24P2C",
+    "model": "24P2C",
+    "brandSlug": "aoc",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 1275000,
+    "warranty": null,
+    "shortDesc": "24\" FHD IPS BORDERLESS 24P2C IPS1920*1080 HDMI+DP+USB TYPE CYES 3 YRYES 2W*2",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "fingers-va1920-1080-2",
+    "name": "Fingers VA1920*1080",
+    "model": "VA1920*1080",
+    "brandSlug": "fingers",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 750000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD BORDERLESSSATIN 2400 VA1920*1080 VGA + HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "benq-ex240n",
+    "name": "BenQ EX240N",
+    "model": "EX240N",
+    "brandSlug": "benq",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 1490000,
+    "warranty": "3 years",
+    "shortDesc": "24\"FHD BORDLESS 165Hz EX240N GAMINGVA1920*1080 VGA + HDMI YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Refresh rate",
+        "value": "165Hz"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "viewsonic-ledva2409",
+    "name": "ViewSonic LEDVA2409",
+    "model": "LEDVA2409",
+    "brandSlug": "viewsonic",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 750000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD IPS LEDVA2409 MHUIPS1920*1080 VGA + HDMI YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "msi-mp251l",
+    "name": "MSI MP251L",
+    "model": "MP251L",
+    "brandSlug": "msi",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 825000,
+    "warranty": "3 years",
+    "shortDesc": "24.5\" FHD LEDPRO MP251L E2 IPS1920*1080 VGA + HDMI YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24.5\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "viewsonic-ledvp2456",
+    "name": "ViewSonic LEDVP2456",
+    "model": "LEDVP2456",
+    "brandSlug": "viewsonic",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 1790000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD IPS LEDVP2456 IPS1920*1080 HDMI+DP YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "viewsonic-vx2428j",
+    "name": "ViewSonic VX2428J",
+    "model": "VX2428J",
+    "brandSlug": "viewsonic",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 910000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD IPS VX2428J IPS1920*1080 HDMI+DP YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "dell-s2725h",
+    "name": "Dell S2725H",
+    "model": "S2725H",
+    "brandSlug": "dell",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 1250000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD BORDLESS S2725H IPS1920*1080 HDMI YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "benq-gw2791",
+    "name": "BenQ GW2791",
+    "model": "GW2791",
+    "brandSlug": "benq",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 1050000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD IPS BORDLESS GW2791 IPS1920*1080 DP + HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "benq-gw2790",
+    "name": "BenQ GW2790",
+    "model": "GW2790",
+    "brandSlug": "benq",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 1120000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD IPS BORDLESS GW2790 IPS1920*1080 DP + HDMI YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-l27-4e",
+    "name": "Lenovo L27-4E",
+    "model": "L27-4E",
+    "brandSlug": "lenovo",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 1050000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD BORDLESS L27-4E VA1920*1080 HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-l-27i4a",
+    "name": "Lenovo L-27I4A",
+    "model": "L-27I4A",
+    "brandSlug": "lenovo",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 1200000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD IPS BORDLESS L-27I4A IPS1920*1080 HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-ekac2in",
+    "name": "Lenovo EKAC2IN",
+    "model": "EKAC2IN",
+    "brandSlug": "lenovo",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 1080000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD IPS BORDLESS 66 EKAC2IN IPS1920*1080 HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-ls27d300",
+    "name": "Samsung LS27D300",
+    "model": "LS27D300",
+    "brandSlug": "samsung",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 1075000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD IPS BORDLESS LS27D300 GAWXXLIPS1920*1080 DP + HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-lc27r500",
+    "name": "Samsung LC27R500",
+    "model": "LC27R500",
+    "brandSlug": "samsung",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 1250000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD LED CURVED BORDLESS LC27R500 FHWXXLVA 1920*1080 VGA+ HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Resolution",
+        "value": "1920*1080"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA+ HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "acer-ka270",
+    "name": "Acer KA270",
+    "model": "KA270",
+    "brandSlug": "acer",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 965000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD IPS BORDLESS KA270 IPS 1920*1080 HDMI+DP YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Resolution",
+        "value": "1920*1080"
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "viewsonic-vx2728j",
+    "name": "ViewSonic VX2728J",
+    "model": "VX2728J",
+    "brandSlug": "viewsonic",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 1050000,
+    "warranty": "3 years",
+    "shortDesc": "27\" FHD IPS VX2728J IPS1920*1080 HDMI+DP YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "viewsonic-led-4k-va2709u",
+    "name": "ViewSonic LED(4K)VA2709U",
+    "model": "LED(4K)VA2709U",
+    "brandSlug": "viewsonic",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 2250000,
+    "warranty": "3 years",
+    "shortDesc": "27\" FHD IPS LED(4K)VA2709U IPS1920*1080 HDMI+DP YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "viewsonic-vx2776-sh-in",
+    "name": "ViewSonic VX2776-SH-IN",
+    "model": "VX2776-SH-IN",
+    "brandSlug": "viewsonic",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 1050000,
+    "warranty": "3 years",
+    "shortDesc": "27\" FHD IPS LED VX2776-SH-IN 1 IPS1920*1080 HDMI YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "aoc-27b30h",
+    "name": "AOC 27B30H",
+    "model": "27B30H",
+    "brandSlug": "aoc",
+    "categorySlug": "monitors",
+    "condition": "NEW",
+    "priceMinor": 950000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD IPS BORDLESS 27B30H IPS1920*1080 VGA + HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "acer-240y-2",
+    "name": "Acer 240Y",
+    "model": "240Y",
+    "brandSlug": "acer",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 750000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD IPS BORDLESSEK240Y IPS1920*1080 VGA + HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "benq-ipsbordlessgw2490",
+    "name": "BenQ IPSBORDLESSGW2490",
+    "model": "IPSBORDLESSGW2490",
+    "brandSlug": "benq",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 899000,
+    "warranty": "3 years",
+    "shortDesc": "24\"FHD IPSBORDLESSGW2490 IPS1920*1080 HDMI YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "benq-ex240n-2",
+    "name": "BenQ EX240N",
+    "model": "EX240N",
+    "brandSlug": "benq",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 1475000,
+    "warranty": "3 years",
+    "shortDesc": "24\"FHD BORDLESS 165Hz EX240N GAMINGVA1920*1080 VGA + HDMI YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Refresh rate",
+        "value": "165Hz"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "dell-se2425hm-2",
+    "name": "Dell SE2425HM",
+    "model": "SE2425HM",
+    "brandSlug": "dell",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 950000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD IPS SE2425HM IPS1920*1080 HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "dell-2425h-2",
+    "name": "Dell 2425H",
+    "model": "2425H",
+    "brandSlug": "dell",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 1050000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD IPSBORDLESS WHITES2425H IPS1920*1080 HDMI YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-24i-4a-2",
+    "name": "Lenovo 24I-4A",
+    "model": "24I-4A",
+    "brandSlug": "lenovo",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 950000,
+    "warranty": "3 years",
+    "shortDesc": "24\"FHD WHITE BORDERLESSL24I-4A IPS1920*1080 VGA+HDMI YES 3YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA+HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "aoc-24p2c-2",
+    "name": "AOC 24P2C",
+    "model": "24P2C",
+    "brandSlug": "aoc",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 1275000,
+    "warranty": null,
+    "shortDesc": "24\" FHD IPS BORDERLESS24P2C IPS1920*1080 HDMI+DP+ USB TYPE CYES 3 YRYES 2W*2",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "viewsonic-ledva2409-2",
+    "name": "ViewSonic LEDVA2409",
+    "model": "LEDVA2409",
+    "brandSlug": "viewsonic",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 750000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD IPS LEDVA2409 MHUIPS1920*1080 VGA + HDMI YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "viewsonic-ledvp2456-2",
+    "name": "ViewSonic LEDVP2456",
+    "model": "LEDVP2456",
+    "brandSlug": "viewsonic",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 1790000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD IPS LEDVP2456 IPS1920*1080 HDMI+DP YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "viewsonic-vx2428j-2",
+    "name": "ViewSonic VX2428J",
+    "model": "VX2428J",
+    "brandSlug": "viewsonic",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 910000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD IPS VX2428J IPS1920*1080 HDMI+DP YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-24d368g",
+    "name": "Samsung 24D368G",
+    "model": "24D368G",
+    "brandSlug": "samsung",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 840000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD CURVE BORDLESSLS24D368G AWXXLVA 1920*1080 HDMI+DP YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Resolution",
+        "value": "1920*1080"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-24d304g",
+    "name": "Samsung 24D304G",
+    "model": "24D304G",
+    "brandSlug": "samsung",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 850000,
+    "warranty": "3 years",
+    "shortDesc": "24\" FHD IPS BORDLESSLS24D304G AWXXLIPS 1920*1080 HDMI+DP YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Resolution",
+        "value": "1920*1080"
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "dell-2725h",
+    "name": "Dell 2725H",
+    "model": "2725H",
+    "brandSlug": "dell",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 1250000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD BORDLESSS2725H IPS1920*1080 HDMI YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "benq-bordlessgw2791",
+    "name": "BenQ BORDLESSGW2791",
+    "model": "BORDLESSGW2791",
+    "brandSlug": "benq",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 1050000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD IPS BORDLESSGW2791 IPS1920*1080DP + HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "benq-bordlessgw2790",
+    "name": "BenQ BORDLESSGW2790",
+    "model": "BORDLESSGW2790",
+    "brandSlug": "benq",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 1099000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD IPS BORDLESSGW2790 IPS1920*1080DP + HDMI YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-bordlessl27-4e",
+    "name": "Lenovo BORDLESSL27-4E",
+    "model": "BORDLESSL27-4E",
+    "brandSlug": "lenovo",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 1050000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD BORDLESSL27-4E VA1920*1080 HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-bordlessl-27i4a",
+    "name": "Lenovo BORDLESSL-27I4A",
+    "model": "BORDLESSL-27I4A",
+    "brandSlug": "lenovo",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 1200000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD IPS BORDLESSL-27I4A IPS1920*1080 HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-bordless66",
+    "name": "Lenovo BORDLESS66",
+    "model": "BORDLESS66",
+    "brandSlug": "lenovo",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 1080000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD IPS BORDLESS66 EKAC2IN IPS1920*1080 HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-27d300g",
+    "name": "Samsung 27D300G",
+    "model": "27D300G",
+    "brandSlug": "samsung",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 1075000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD IPS BORDLESSLS27D300G AWXXLIPS1920*1080DP + HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-27r500f",
+    "name": "Samsung 27R500F",
+    "model": "27R500F",
+    "brandSlug": "samsung",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 1250000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD LED CURVED BORDLESSLC27R500F HWXXLVA 1920*1080 VGA+ HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Resolution",
+        "value": "1920*1080"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA+ HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "acer-vg270",
+    "name": "Acer VG270",
+    "model": "VG270",
+    "brandSlug": "acer",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 1190000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD IPS BORDLESSGAMING VG270 M3 IPS 1920*1080 HDMI+DP YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Resolution",
+        "value": "1920*1080"
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "viewsonic-vx2728j-2",
+    "name": "ViewSonic VX2728J",
+    "model": "VX2728J",
+    "brandSlug": "viewsonic",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 1050000,
+    "warranty": "3 years",
+    "shortDesc": "27\" FHD IPS VX2728J IPS1920*1080 HDMI+DP YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "viewsonic-led-4k-va2709u-2",
+    "name": "ViewSonic LED(4K)VA2709U",
+    "model": "LED(4K)VA2709U",
+    "brandSlug": "viewsonic",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 2250000,
+    "warranty": "3 years",
+    "shortDesc": "27\" FHD IPS LED(4K)VA2709U IPS1920*1080 HDMI+DP YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "viewsonic-ledvx2776-sh",
+    "name": "ViewSonic LEDVX2776-SH",
+    "model": "LEDVX2776-SH",
+    "brandSlug": "viewsonic",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 1050000,
+    "warranty": "3 years",
+    "shortDesc": "27\" FHD IPS LEDVX2776-SH- IN 1 IPS1920*1080 HDMI YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "aoc-27b30h-2",
+    "name": "AOC 27B30H",
+    "model": "27B30H",
+    "brandSlug": "aoc",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 950000,
+    "warranty": "3 years",
+    "shortDesc": "27\"FHD IPS BORDLESS27B30H IPS1920*1080 VGA + HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Connectivity",
+        "value": "VGA + HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-2k",
+    "name": "Samsung (2K)",
+    "model": "(2K)",
+    "brandSlug": "samsung",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 2750000,
+    "warranty": "3 years",
+    "shortDesc": "27\" QHD (2K) BORDERLESSLS27D604U AWXXLIPS2560*1140 HDMI+DP+ USB TYPE CYES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI+DP"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-4k",
+    "name": "Samsung (4K)",
+    "model": "(4K)",
+    "brandSlug": "samsung",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 2990000,
+    "warranty": "3 years",
+    "shortDesc": "27\" UHD (4K) BORDERLESSLS27D804U AWXXLIPS3840*2160DP + HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-g7-4k-ls27dg700",
+    "name": "Samsung G7(4K)LS27DG700",
+    "model": "G7(4K)LS27DG700",
+    "brandSlug": "samsung",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 4950000,
+    "warranty": "3 years",
+    "shortDesc": "27\" ODYSSEY G7(4K)LS27DG700 EWXXLIPS3840*2160DP+ HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "27\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-32fm501",
+    "name": "Samsung 32FM501",
+    "model": "32FM501",
+    "brandSlug": "samsung",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 1850000,
+    "warranty": "3 years",
+    "shortDesc": "32\" BUSINESS SMART MONITORLS32FM501 EWXXLVA 1920*1080 HDMI+USB YES 3 YR YES",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "32\""
+      },
+      {
+        "key": "Resolution",
+        "value": "1920*1080"
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-uhd-4k-ls32d700e",
+    "name": "Samsung UHD(4K)LS32D700E",
+    "model": "UHD(4K)LS32D700E",
+    "brandSlug": "samsung",
+    "categorySlug": "designed-monitors",
+    "condition": "NEW",
+    "priceMinor": 2800000,
+    "warranty": "3 years",
+    "shortDesc": "32\" UHD(4K)LS32D700E BWXXLIPS3840*2160DP+ HDMI YES 3 YR NO",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "32\""
+      },
+      {
+        "key": "Connectivity",
+        "value": "HDMI"
+      }
+    ]
+  },
+  {
+    "slug": "acer-aspire-3a3-14-36",
+    "name": "Acer ASPIRE 3A3 14-36",
+    "model": "ASPIRE 3A3 14-36",
+    "brandSlug": "acer",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 4100000,
+    "warranty": "1 year",
+    "shortDesc": "i3-1305U 8 GB 512GB SSD15.6\"FHDWIN 11 SILVER 1 YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i3-1305U"
+      },
+      {
+        "key": "Memory",
+        "value": "8 GB"
+      }
+    ]
+  },
+  {
+    "slug": "acer-aspire-3a3-14-36-2",
+    "name": "Acer ASPIRE 3A3 14-36",
+    "model": "ASPIRE 3A3 14-36",
+    "brandSlug": "acer",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 5100000,
+    "warranty": "1 year",
+    "shortDesc": "i5-1335U 8 GB 512GB SSD15.6\"FHDWIN 11 BLACK 1 YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i5-1335U"
+      },
+      {
+        "key": "Memory",
+        "value": "8 GB"
+      }
+    ]
+  },
+  {
+    "slug": "acer-aspire-liteal-15-53r3-7330u",
+    "name": "Acer ASPIRE LITEAL 15-53R3-7330U",
+    "model": "ASPIRE LITEAL 15-53R3-7330U",
+    "brandSlug": "acer",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 4050000,
+    "warranty": "1 year",
+    "shortDesc": "8 GB 512GB SSD 15.6\" FHD WIN 11 MSO STEEL GRAY 1 YR",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "8 GB"
+      },
+      {
+        "key": "Storage",
+        "value": "512GB SSD"
+      },
+      {
+        "key": "Display",
+        "value": "15.6\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN 11 MSO STEEL GRAY 1"
+      }
+    ]
+  },
+  {
+    "slug": "acer-aspire-liteal-15-41",
+    "name": "Acer ASPIRE LITEAL 15-41",
+    "model": "ASPIRE LITEAL 15-41",
+    "brandSlug": "acer",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 4890000,
+    "warranty": "1 year",
+    "shortDesc": "R5-7430U 8 GB 512GB SSD15.6\"FHDWIN 11 HOMESILVER 1 YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "R5-7430U"
+      },
+      {
+        "key": "Memory",
+        "value": "8 GB"
+      }
+    ]
+  },
+  {
+    "slug": "acer-aspire-liteal-15-53hi5-13420h16gb",
+    "name": "Acer ASPIRE LITEAL 15-53Hi5-13420H16GB",
+    "model": "ASPIRE LITEAL 15-53Hi5-13420H16GB",
+    "brandSlug": "acer",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 5990000,
+    "warranty": "1 year",
+    "shortDesc": "15\" FHD WIN 11 MSO SILVER 1 YR",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "15\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN 11 MSO SILVER 1 YR"
+      }
+    ]
+  },
+  {
+    "slug": "acer-aspire-liteal-15-41-2",
+    "name": "Acer ASPIRE LITEAL 15-41",
+    "model": "ASPIRE LITEAL 15-41",
+    "brandSlug": "acer",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 6250000,
+    "warranty": "1 year",
+    "shortDesc": "R7-7730U16GB DDR4512 GB SSD 15.6''FHDWIN 11 MSO STEEL GRAY 1 YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "R7-7730U16GB"
+      },
+      {
+        "key": "Display",
+        "value": "15.6''"
+      }
+    ]
+  },
+  {
+    "slug": "hp-15-fd0883-tucore-3-100u-14th-gen",
+    "name": "HP 15-FD0883 TUCORE 3 -100U(14TH GEN)",
+    "model": "15-FD0883 TUCORE 3 -100U(14TH GEN)",
+    "brandSlug": "hp",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 4990000,
+    "warranty": "1 year",
+    "shortDesc": "8 GB 512 GB SSD 15.6\" FHD WIN 11 MSO SILVER 1 YR",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "8 GB"
+      },
+      {
+        "key": "Storage",
+        "value": "512 GB SSD"
+      },
+      {
+        "key": "Display",
+        "value": "15.6\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN 11 MSO SILVER 1 YR"
+      }
+    ]
+  },
+  {
+    "slug": "hp-15-fd0534-tucore-5-120u-14th-gen",
+    "name": "HP 15-fd0534 TUCORE 5 120U(14TH GEN)",
+    "model": "15-fd0534 TUCORE 5 120U(14TH GEN)",
+    "brandSlug": "hp",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 6450000,
+    "warranty": "1 year",
+    "shortDesc": "8GB DDR4 512 GB SSD 15.6''FHDWIN 11 MSO SILVER 1YR",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "8GB DDR4"
+      },
+      {
+        "key": "Storage",
+        "value": "512 GB SSD"
+      },
+      {
+        "key": "Display",
+        "value": "15.6''"
+      }
+    ]
+  },
+  {
+    "slug": "hp-15-fc0690au",
+    "name": "HP 15-FC0690AU",
+    "model": "15-FC0690AU",
+    "brandSlug": "hp",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 6450000,
+    "warranty": "1 year",
+    "shortDesc": "R5-7520U16 GB LPDDR5512 GB SSD 15.6\" FHD WIN 11 MSO SILVER 1 YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "R5-7520U16"
+      },
+      {
+        "key": "Display",
+        "value": "15.6\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN 11 MSO SILVER 1 YR"
+      }
+    ]
+  },
+  {
+    "slug": "hp-15-fd1254-tuultra-5-125h16-gb",
+    "name": "HP 15-FD1254 TUULTRA 5 -125H16 GB",
+    "model": "15-FD1254 TUULTRA 5 -125H16 GB",
+    "brandSlug": "hp",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 7350000,
+    "warranty": "1 year",
+    "shortDesc": "15.6\" FHD WIN 11 MSO SILVER 1 YR",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "15.6\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN 11 MSO SILVER 1 YR"
+      }
+    ]
+  },
+  {
+    "slug": "hp-15-fd0682-tucore-5-120u-14th-gen",
+    "name": "HP 15-FD0682 TUCORE 5-120U(14TH GEN)",
+    "model": "15-FD0682 TUCORE 5-120U(14TH GEN)",
+    "brandSlug": "hp",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 7750000,
+    "warranty": "1 year",
+    "shortDesc": "16 GB 512 GB SSD 15.6\" FHD WIN 11 MSO SILVER 1 YR",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "16 GB"
+      },
+      {
+        "key": "Storage",
+        "value": "512 GB SSD"
+      },
+      {
+        "key": "Display",
+        "value": "15.6\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN 11 MSO SILVER 1 YR"
+      }
+    ]
+  },
+  {
+    "slug": "hp-omnibook-3-ngai-15-fn0007-auamd",
+    "name": "HP OMNIBOOK 3 NGAI 15 FN0007 AUAMD",
+    "model": "OMNIBOOK 3 NGAI 15 FN0007 AUAMD",
+    "brandSlug": "hp",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 6650000,
+    "warranty": "1 year",
+    "shortDesc": "34016 GB DDR5512GB SSD 15.6\" FHD WIN 11 MSO SILVER 1 YR",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "34016 GB"
+      },
+      {
+        "key": "Display",
+        "value": "15.6\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN 11 MSO SILVER 1 YR"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-82x700-hminideapad-slim-3",
+    "name": "Lenovo 82X700 HMINIDEAPAD SLIM 3",
+    "model": "82X700 HMINIDEAPAD SLIM 3",
+    "brandSlug": "lenovo",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 5550000,
+    "warranty": "1 year",
+    "shortDesc": "i3-1315U 8 GB 512 GB SSD 15.6\" FHDWIN 11 MSOGREY 1 YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i3-1315U"
+      },
+      {
+        "key": "Memory",
+        "value": "8 GB"
+      },
+      {
+        "key": "Storage",
+        "value": "512 GB SSD"
+      },
+      {
+        "key": "Display",
+        "value": "15.6\""
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-k100-cain-ideapad-slim-3",
+    "name": "Lenovo K100 CAIN IDEAPAD SLIM 3",
+    "model": "K100 CAIN IDEAPAD SLIM 3",
+    "brandSlug": "lenovo",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 7150000,
+    "warranty": "1 year",
+    "shortDesc": "i5-13420H 8 GB512GB SSD15.6''FHDWIN 11 MSOGREY 1YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i5-13420H"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-er00-mcin-ideapad-slim-3i",
+    "name": "Lenovo ER00 MCIN IDEAPAD SLIM 3i",
+    "model": "ER00 MCIN IDEAPAD SLIM 3i",
+    "brandSlug": "lenovo",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 7250000,
+    "warranty": "1 year",
+    "shortDesc": "i5-13420H 16 GB512 GBSSD15.6\" FHDWIN 11 MSOGREY 1 YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i5-13420H"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-idea-pad-sli-m",
+    "name": "Lenovo Idea Pad Sli M",
+    "model": "Idea Pad Sli M",
+    "brandSlug": "lenovo",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 8550000,
+    "warranty": "1 year",
+    "shortDesc": "16 GB512 GBSSD15.3\" FHDWIN 11 MSOGREY 1 YR",
+    "specs": []
+  },
+  {
+    "slug": "dell-dc-15250",
+    "name": "Dell DC 15250",
+    "model": "DC 15250",
+    "brandSlug": "dell",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 5000000,
+    "warranty": "1 year",
+    "shortDesc": "CORE3 -100U(14TH GEN)8 GB DDR4512 GB SSD 15.6\" FHDWIN 11 MSOBLACK 1 YR",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "8 GB"
+      },
+      {
+        "key": "Display",
+        "value": "15.6\""
+      }
+    ]
+  },
+  {
+    "slug": "dell-inspiron-15250-odc1525000401-rins1",
+    "name": "Dell Inspiron 15250 ODC1525000401 RINS1",
+    "model": "Inspiron 15250 ODC1525000401 RINS1",
+    "brandSlug": "dell",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 7000000,
+    "warranty": null,
+    "shortDesc": "i5-1334U16 GB DDR4512 GB SSD 15.6\" FHDWIN 11 MSOPLATINUM SILVER1 YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i5-1334U16"
+      },
+      {
+        "key": "Display",
+        "value": "15.6\""
+      }
+    ]
+  },
+  {
+    "slug": "dell-inspiron-15250-odc1525000601-rins1",
+    "name": "Dell Inspiron 15250 ODC1525000601 RINS1",
+    "model": "Inspiron 15250 ODC1525000601 RINS1",
+    "brandSlug": "dell",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 9250000,
+    "warranty": null,
+    "shortDesc": "i7-1335U16 GB DDR4512 GB SSD 15.6\" FHDWIN 11 MSOPLATINUM SILVER1 YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i7-1335U16"
+      },
+      {
+        "key": "Display",
+        "value": "15.6\""
+      }
+    ]
+  },
+  {
+    "slug": "asus-vivobook-x1404va-eb322ws",
+    "name": "Asus Vivobook X1404VA-EB322WS",
+    "model": "Vivobook X1404VA-EB322WS",
+    "brandSlug": "asus",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 5050000,
+    "warranty": "1 year",
+    "shortDesc": "i3-1315U 8 GBDDR4512 GB SSD 14\" FHD WIN 11 MSO QUITE BLUE 1 YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i3-1315U"
+      },
+      {
+        "key": "Display",
+        "value": "14\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN 11 MSO QUITE BLUE 1"
+      }
+    ]
+  },
+  {
+    "slug": "asus-vivobook-go-15e1504fa-bq2116ws",
+    "name": "Asus Vivobook Go 15E1504FA-BQ2116WS",
+    "model": "Vivobook Go 15E1504FA-BQ2116WS",
+    "brandSlug": "asus",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 5850000,
+    "warranty": "1 year",
+    "shortDesc": "Ryzen5 4016GB LPDDR5512 GBSSD15.6\" FHDWIN 11 MSOMIXED BLACK 1 YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "Ryzen5 4016GB"
+      },
+      {
+        "key": "Memory",
+        "value": "4016GB"
+      }
+    ]
+  },
+  {
+    "slug": "asus-vivobook-go-e1504fa-bq2490-wsr5",
+    "name": "Asus Vivobook GO E1504FA-BQ2490 WSR5-",
+    "model": "Vivobook GO E1504FA-BQ2490 WSR5-",
+    "brandSlug": "asus",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 5190000,
+    "warranty": "1 year",
+    "shortDesc": "15.6\" FHDWIN 11 MSOMIXED BLACK 1 YR",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "15.6\""
+      }
+    ]
+  },
+  {
+    "slug": "asus-vivobook-x1404",
+    "name": "Asus Vivobook X1404",
+    "model": "Vivobook X1404",
+    "brandSlug": "asus",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 6790000,
+    "warranty": "1 year",
+    "shortDesc": "VAP-EB1541 WSCORE 5 120U(14TH GEN)16 GBDDR4512 GB SSD 14\" FHDWIN 11 MSOSILVER 1 YR",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "14\""
+      }
+    ]
+  },
+  {
+    "slug": "msi-modern-14-c12mo-1400ini5-1235u",
+    "name": "MSI MODERN 14 C12MO-1400INi5-1235U",
+    "model": "MODERN 14 C12MO-1400INi5-1235U",
+    "brandSlug": "msi",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 4550000,
+    "warranty": "1 year",
+    "shortDesc": "8GB 512 GB SSD 14\" FHDWIN 11 MSOURBAN SILVER 1 YR",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "8GB"
+      },
+      {
+        "key": "Storage",
+        "value": "512 GB SSD"
+      },
+      {
+        "key": "Display",
+        "value": "14\""
+      }
+    ]
+  },
+  {
+    "slug": "msi-modern-14-c12mo-1299ini5-1235u",
+    "name": "MSI MODERN 14 C12MO-1299INi5-1235U",
+    "model": "MODERN 14 C12MO-1299INi5-1235U",
+    "brandSlug": "msi",
+    "categorySlug": "laptops",
+    "condition": "NEW",
+    "priceMinor": 4850000,
+    "warranty": "1 year",
+    "shortDesc": "16GB DDR4512 GB NVME SSD14\" FHDWIN 11 MSOURBAN SILVER 1 YR",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "16GB"
+      }
+    ]
+  },
+  {
+    "slug": "acer-nitro-v",
+    "name": "Acer NITRO-V",
+    "model": "NITRO-V",
+    "brandSlug": "acer",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 8000000,
+    "warranty": null,
+    "shortDesc": "I5 ANV15-41R5-6600H 16 GB DDR5 512 GB SSD RTX 3050 6 GB GRAPHICS15.6\" FHD IPS144 Hz WIN 11 HOMESTEEL GREY",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I5 ANV15-41R5-6600H"
+      },
+      {
+        "key": "Memory",
+        "value": "16 GB DDR5"
+      },
+      {
+        "key": "Storage",
+        "value": "512 GB SSD"
+      },
+      {
+        "key": "Graphics",
+        "value": "RTX 3050 6 GB"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN 11 HOMESTEEL GREY"
+      }
+    ]
+  },
+  {
+    "slug": "acer-alg-gamingal-15g-53",
+    "name": "Acer ALG GAMINGAL-15G-53",
+    "model": "ALG GAMINGAL-15G-53",
+    "brandSlug": "acer",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 8200000,
+    "warranty": null,
+    "shortDesc": "INTEL CORE i5-13500H16 GBDDR4512 GB SSD RTX 3050 6 GB GRAPHICS15.6\" FHD IPS144 Hz WIN 11 HOMESTEEL GREY",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "INTEL CORE i5-13500H16"
+      },
+      {
+        "key": "Memory",
+        "value": "6 GB"
+      },
+      {
+        "key": "Graphics",
+        "value": "RTX 3050 6 GB"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN 11 HOMESTEEL GREY"
+      }
+    ]
+  },
+  {
+    "slug": "hp-victus-15-fb3189ax",
+    "name": "HP Victus 15-fb3189AX",
+    "model": "Victus 15-fb3189AX",
+    "brandSlug": "hp",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 7450000,
+    "warranty": null,
+    "shortDesc": "Ryzen7-7445HS 16GB DDR5 512 SSD RTX 2050 4GB15.6\" FHD 300nits IPS anti glare 144Hz WIN-11+ MSO+M365 BASIC 1 YRBLUE",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "Ryzen7-7445HS"
+      },
+      {
+        "key": "Memory",
+        "value": "16GB DDR5"
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Refresh rate",
+        "value": "144Hz"
+      },
+      {
+        "key": "Graphics",
+        "value": "RTX 2050 4GB"
+      }
+    ]
+  },
+  {
+    "slug": "hp-victus-15-fa2191-txintel",
+    "name": "HP Victus 15-fa2191 TXINTEL",
+    "model": "Victus 15-fa2191 TXINTEL",
+    "brandSlug": "hp",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 8590000,
+    "warranty": null,
+    "shortDesc": "CORE i5-13420H 16GB DDR4 512 SSD RTX 3050 4GB15.6\" FHD 300nits IPS anti glare 144Hz WIN-11+ MSO+M365 BASIC 1 YRBLUE",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "CORE i5-13420H"
+      },
+      {
+        "key": "Memory",
+        "value": "16GB DDR4"
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Refresh rate",
+        "value": "144Hz"
+      },
+      {
+        "key": "Graphics",
+        "value": "RTX 3050 4GB"
+      }
+    ]
+  },
+  {
+    "slug": "hp-victus-16-fa2303txi5-14450hx",
+    "name": "HP Victus 16-FA2303TXi5-14450HX",
+    "model": "Victus 16-FA2303TXi5-14450HX",
+    "brandSlug": "hp",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 9600000,
+    "warranty": null,
+    "shortDesc": "24GB DDR5 512 SSD RTX 3050 6GB16.1\" FHD 300nits IPS anti glare 144Hz WIN-11+ MSO+M365 BASIC 1YR Mica Silver",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "24GB DDR5"
+      },
+      {
+        "key": "Panel",
+        "value": "IPS"
+      },
+      {
+        "key": "Refresh rate",
+        "value": "144Hz"
+      },
+      {
+        "key": "Graphics",
+        "value": "RTX 3050 6GB"
+      }
+    ]
+  },
+  {
+    "slug": "asus-creator-k3605vc-rp412wsi5-13420h",
+    "name": "Asus CREATOR K3605VC-RP412WSi5-13420H",
+    "model": "CREATOR K3605VC-RP412WSi5-13420H",
+    "brandSlug": "asus",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 7550000,
+    "warranty": null,
+    "shortDesc": "16GB DDR4 512 GB SSD RTX3050- 4GB 16.0\" FHD 144Hz WIN11+ MSO BLACK",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "16GB DDR4"
+      },
+      {
+        "key": "Storage",
+        "value": "512 GB SSD"
+      },
+      {
+        "key": "Display",
+        "value": "16.0\""
+      },
+      {
+        "key": "Refresh rate",
+        "value": "144Hz"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11+ MSO BLACK"
+      }
+    ]
+  },
+  {
+    "slug": "asus-tuf-a15-fa607-nug-rl189",
+    "name": "Asus TUF A15 FA607 NUG-RL189",
+    "model": "TUF A15 FA607 NUG-RL189",
+    "brandSlug": "asus",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 11650000,
+    "warranty": null,
+    "shortDesc": "16GB DDR5 1TB PCIE G4 SSD RTX 4050A 6 GB 16\" FHD 144Hz WIN 11+MSO+365 MECHA GRAY",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "16GB DDR5"
+      },
+      {
+        "key": "Display",
+        "value": "16\""
+      },
+      {
+        "key": "Refresh rate",
+        "value": "144Hz"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN 11+MSO+365 MECHA"
+      }
+    ]
+  },
+  {
+    "slug": "asus-v3607vh-rp038ws",
+    "name": "Asus V3607VH-RP038WS",
+    "model": "V3607VH-RP038WS",
+    "brandSlug": "asus",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 13380000,
+    "warranty": null,
+    "shortDesc": "CORE 7(14TH) 16 GB 512 GB SSD RTX 5050 8GB 16\" FHD 144Hz WIN 11+MSO+365 BLACK",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "16 GB"
+      },
+      {
+        "key": "Storage",
+        "value": "512 GB SSD"
+      },
+      {
+        "key": "Display",
+        "value": "16\""
+      },
+      {
+        "key": "Refresh rate",
+        "value": "144Hz"
+      },
+      {
+        "key": "Graphics",
+        "value": "RTX 5050 8GB"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN 11+MSO+365 BLACK"
+      }
+    ]
+  },
+  {
+    "slug": "asus-v3607vm-rp057ws",
+    "name": "Asus V3607VM-RP057WS",
+    "model": "V3607VM-RP057WS",
+    "brandSlug": "asus",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 13010000,
+    "warranty": null,
+    "shortDesc": "R7-7445HS 16 GB 512 GB SSD RTX5060- 8GB 16\" FHD 144Hz Win11+MSO+365 BLACK",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "R7-7445HS"
+      },
+      {
+        "key": "Memory",
+        "value": "16 GB"
+      },
+      {
+        "key": "Storage",
+        "value": "512 GB SSD"
+      },
+      {
+        "key": "Display",
+        "value": "16\""
+      },
+      {
+        "key": "Refresh rate",
+        "value": "144Hz"
+      },
+      {
+        "key": "Operating system",
+        "value": "Win11+MSO+365 BLACK"
+      }
+    ]
+  },
+  {
+    "slug": "asus-tuf-a15-fa607-nug-rl189-2",
+    "name": "Asus TUF A15 FA607 NUG-RL189",
+    "model": "TUF A15 FA607 NUG-RL189",
+    "brandSlug": "asus",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 11860000,
+    "warranty": null,
+    "shortDesc": "16GB DDR5 1TB PCIE G4 SSD RTX4050 6GB 16.0\" FHD 144Hz WIN11+ MSO+365 BLACK",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "16GB DDR5"
+      },
+      {
+        "key": "Display",
+        "value": "16.0\""
+      },
+      {
+        "key": "Refresh rate",
+        "value": "144Hz"
+      },
+      {
+        "key": "Graphics",
+        "value": "RTX4050 6GB"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11+ MSO+365 BLACK"
+      }
+    ]
+  },
+  {
+    "slug": "dell-g15-5530",
+    "name": "Dell G15-5530",
+    "model": "G15-5530",
+    "brandSlug": "dell",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 8390000,
+    "warranty": null,
+    "shortDesc": "i5-13450HX 16 GB DDR5 512 GB SSD RTX 3050 6GB 15.6\"FHD 120HZ WIN11 GREY",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i5-13450HX"
+      },
+      {
+        "key": "Memory",
+        "value": "16 GB DDR5"
+      },
+      {
+        "key": "Storage",
+        "value": "512 GB SSD"
+      },
+      {
+        "key": "Display",
+        "value": "15.6\""
+      },
+      {
+        "key": "Refresh rate",
+        "value": "120HZ"
+      },
+      {
+        "key": "Graphics",
+        "value": "RTX 3050 6GB"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11 GREY"
+      }
+    ]
+  },
+  {
+    "slug": "dell-g15-5530-2",
+    "name": "Dell G15-5530",
+    "model": "G15-5530",
+    "brandSlug": "dell",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 10300000,
+    "warranty": null,
+    "shortDesc": "i7-13650HX 16 GB DDR5 1 TB SSD RTX 3050 6GB 15.6\"FHD 120HZ WIN11 GREY",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i7-13650HX"
+      },
+      {
+        "key": "Memory",
+        "value": "16 GB DDR5"
+      },
+      {
+        "key": "Storage",
+        "value": "1 TB SSD"
+      },
+      {
+        "key": "Display",
+        "value": "15.6\""
+      },
+      {
+        "key": "Refresh rate",
+        "value": "120HZ"
+      },
+      {
+        "key": "Graphics",
+        "value": "RTX 3050 6GB"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11 GREY"
+      }
+    ]
+  },
+  {
+    "slug": "dell-g15-5530-3",
+    "name": "Dell G15-5530",
+    "model": "G15-5530",
+    "brandSlug": "dell",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 13190000,
+    "warranty": null,
+    "shortDesc": "i7-13650HX 16 GB DDR5 1 TB SSD RTX 4060 8GB 15.6\"FHD 165HZ WIN11 GREY",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i7-13650HX"
+      },
+      {
+        "key": "Memory",
+        "value": "16 GB DDR5"
+      },
+      {
+        "key": "Storage",
+        "value": "1 TB SSD"
+      },
+      {
+        "key": "Display",
+        "value": "15.6\""
+      },
+      {
+        "key": "Refresh rate",
+        "value": "165HZ"
+      },
+      {
+        "key": "Graphics",
+        "value": "RTX 4060 8GB"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11 GREY"
+      }
+    ]
+  },
+  {
+    "slug": "dell-alienware-m16-r2",
+    "name": "Dell Alienware m16 R2",
+    "model": "Alienware m16 R2",
+    "brandSlug": "dell",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 16250000,
+    "warranty": null,
+    "shortDesc": "INTEL Ultra 9 processor 185H16GB DDR5 1TB SSD RTX 5050 8GB16.0\" QHD+ 240 Hz 100% Srgb Win11+MSO+365 BLACK",
+    "specs": [
+      {
+        "key": "Storage",
+        "value": "1TB SSD"
+      },
+      {
+        "key": "Refresh rate",
+        "value": "240 Hz"
+      },
+      {
+        "key": "Graphics",
+        "value": "RTX 5050 8GB"
+      },
+      {
+        "key": "Operating system",
+        "value": "Win11+MSO+365 BLACK"
+      }
+    ]
+  },
+  {
+    "slug": "msi-thin-15-b13uc-3231in",
+    "name": "MSI Thin 15 B13UC-3231IN",
+    "model": "Thin 15 B13UC-3231IN",
+    "brandSlug": "msi",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 7300000,
+    "warranty": null,
+    "shortDesc": "i5-13420H 16GB 512 GB NVME SSD RTX 3050 DDR6 4GB15.6\"FHD 144Hz WIN11 BLACK",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i5-13420H"
+      },
+      {
+        "key": "Memory",
+        "value": "16GB"
+      },
+      {
+        "key": "Refresh rate",
+        "value": "144Hz"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11 BLACK"
+      }
+    ]
+  },
+  {
+    "slug": "msi-katana-a15-ai-b8ve-628in",
+    "name": "MSI Katana A15 AI B8VE-628IN",
+    "model": "Katana A15 AI B8VE-628IN",
+    "brandSlug": "msi",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 1050000,
+    "warranty": null,
+    "shortDesc": "R7-8845HS 16GB 1TB NVME SSD RTX 4050,DDR6 6GB15.6\"FHD 144Hz WIN11 BLACK",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "R7-8845HS"
+      },
+      {
+        "key": "Memory",
+        "value": "16GB"
+      },
+      {
+        "key": "Refresh rate",
+        "value": "144Hz"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11 BLACK"
+      }
+    ]
+  },
+  {
+    "slug": "msi-thin-a15-b7uc-481in",
+    "name": "MSI Thin A15 B7UC-481IN",
+    "model": "Thin A15 B7UC-481IN",
+    "brandSlug": "msi",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 8350000,
+    "warranty": null,
+    "shortDesc": "R7-7735HS 16GB 1TB NVME SSD RTX 3050 DDR6 4GB15.6\"FHD 144Hz WIN11 BLACK",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "R7-7735HS"
+      },
+      {
+        "key": "Memory",
+        "value": "16GB"
+      },
+      {
+        "key": "Refresh rate",
+        "value": "144Hz"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11 BLACK"
+      }
+    ]
+  },
+  {
+    "slug": "msi-thin-15-b13-udx-129in",
+    "name": "MSI Thin 15 B13 UDX-129IN",
+    "model": "Thin 15 B13 UDX-129IN",
+    "brandSlug": "msi",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 8600000,
+    "warranty": null,
+    "shortDesc": "i5-13420H 16GB 512 GB NVME SSD RTX 3050 DDR6 6GB15.6\"FHD 144Hz WIN11 BLACK",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i5-13420H"
+      },
+      {
+        "key": "Memory",
+        "value": "16GB"
+      },
+      {
+        "key": "Refresh rate",
+        "value": "144Hz"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11 BLACK"
+      }
+    ]
+  },
+  {
+    "slug": "msi-cyborg-15-a13-vfk-1079ini7-13620h",
+    "name": "MSI CYBORG 15 A13 VFK-1079INi7-13620H",
+    "model": "CYBORG 15 A13 VFK-1079INi7-13620H",
+    "brandSlug": "msi",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 10750000,
+    "warranty": null,
+    "shortDesc": "16GB 512 GB NVME SSD RTX 4060 DDR6 8GB 15.6\" FHD 144Hz WIN11 + MSO(2021)BLACK",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "16GB"
+      },
+      {
+        "key": "Display",
+        "value": "15.6\""
+      },
+      {
+        "key": "Refresh rate",
+        "value": "144Hz"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11 + MSO(2021)BLACK"
+      }
+    ]
+  },
+  {
+    "slug": "msi-crosshair-a16-hx-d8-wfkg-036",
+    "name": "MSI CROSSHAIR A16 HX D8 WFKG-036",
+    "model": "CROSSHAIR A16 HX D8 WFKG-036",
+    "brandSlug": "msi",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 15150000,
+    "warranty": null,
+    "shortDesc": "16GB 512 GB NVME SSD RTX 5060 DDR5 8GB15.6\"FHD 144Hz WIN11 BLACK",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "16GB"
+      },
+      {
+        "key": "Refresh rate",
+        "value": "144Hz"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11 BLACK"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-83lk00d9-inlo-qi7-12650hx",
+    "name": "Lenovo 83LK00D9 INLO Qi7-12650HX",
+    "model": "83LK00D9 INLO Qi7-12650HX",
+    "brandSlug": "lenovo",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 8490000,
+    "warranty": null,
+    "shortDesc": "16 GB 512 GB SSD RTX4050 6GB 15.6\"FHD 144Hz WIN 11+MSO LUNA GREY",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "16 GB"
+      },
+      {
+        "key": "Storage",
+        "value": "512 GB SSD"
+      },
+      {
+        "key": "Display",
+        "value": "15.6\""
+      },
+      {
+        "key": "Refresh rate",
+        "value": "144Hz"
+      },
+      {
+        "key": "Graphics",
+        "value": "RTX4050 6GB"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN 11+MSO LUNA GREY"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-je00u7-inlo-qi7-13700hx",
+    "name": "Lenovo JE00U7 INLO Qi7-13700HX",
+    "model": "JE00U7 INLO Qi7-13700HX",
+    "brandSlug": "lenovo",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 13650000,
+    "warranty": null,
+    "shortDesc": "16 GB 1TB SSD RTX5050 8GB 15.6\"FHD 144Hz WIN 11+MSO LUNA GREY",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "16 GB"
+      },
+      {
+        "key": "Storage",
+        "value": "1TB SSD"
+      },
+      {
+        "key": "Display",
+        "value": "15.6\""
+      },
+      {
+        "key": "Refresh rate",
+        "value": "144Hz"
+      },
+      {
+        "key": "Graphics",
+        "value": "RTX5050 8GB"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN 11+MSO LUNA GREY"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-legion-pro783jj0010-inultra9-275hx",
+    "name": "Lenovo LEGION pro783JJ0010 INULTRA9-275HX",
+    "model": "LEGION pro783JJ0010 INULTRA9-275HX",
+    "brandSlug": "lenovo",
+    "categorySlug": "gaming-laptops",
+    "condition": "NEW",
+    "priceMinor": 30890000,
+    "warranty": null,
+    "shortDesc": "32GB 1TB SSD RTX5070 12GB 16\"FHD 165Hz WIN 11+MSO BLACK",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "32GB"
+      },
+      {
+        "key": "Storage",
+        "value": "1TB SSD"
+      },
+      {
+        "key": "Display",
+        "value": "16\""
+      },
+      {
+        "key": "Refresh rate",
+        "value": "165Hz"
+      },
+      {
+        "key": "Graphics",
+        "value": "RTX5070 12GB"
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN 11+MSO BLACK"
+      }
+    ]
+  },
+  {
+    "slug": "hp-probook-440-g5",
+    "name": "HP PROBOOK 440-G5",
+    "model": "PROBOOK 440-G5",
+    "brandSlug": "hp",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 3330000,
+    "warranty": null,
+    "shortDesc": "I3-7 THGEN 8GB512GB SSDDOS14” WEB CAM , WIFI ,27,800/-2HP240-G7 I3-10 THGEN 8GB 512GB SSDDOS14” WEB CAM , WIFI ,31,500/- 3HP240 G8 I3-11 THGEN8GB 512GB SSDDOS14” WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I3-7"
+      },
+      {
+        "key": "Memory",
+        "value": "8GB"
+      }
+    ]
+  },
+  {
+    "slug": "hp-240-g9",
+    "name": "HP 240 G9",
+    "model": "240 G9",
+    "brandSlug": "hp",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 3580000,
+    "warranty": null,
+    "shortDesc": "I3-12 THGEN8GB 512GB SSDDOS14” WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I3-12"
+      },
+      {
+        "key": "Memory",
+        "value": "512GB"
+      }
+    ]
+  },
+  {
+    "slug": "hp-probook-440g4",
+    "name": "HP PROBOOK 440G4",
+    "model": "PROBOOK 440G4",
+    "brandSlug": "hp",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 2890000,
+    "warranty": null,
+    "shortDesc": "I5-7 THGEN8GB256 GBWIN 10 PRO14” WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I5-7"
+      }
+    ]
+  },
+  {
+    "slug": "hp-probook840-g5",
+    "name": "HP PROBOOK840-G5",
+    "model": "PROBOOK840-G5",
+    "brandSlug": "hp",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 3210000,
+    "warranty": null,
+    "shortDesc": "I5-7 THGEN8GB512GB SSDDOS14” WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I5-7"
+      }
+    ]
+  },
+  {
+    "slug": "hp-elite-book840-g6",
+    "name": "HP ELITE BOOK840-G6",
+    "model": "ELITE BOOK840-G6",
+    "brandSlug": "hp",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 3440000,
+    "warranty": null,
+    "shortDesc": "I5-8 THGEN8GB512GB SSDDOS 13.3” WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I5-8"
+      },
+      {
+        "key": "Display",
+        "value": "13.3”"
+      }
+    ]
+  },
+  {
+    "slug": "hp-elite-book840-g6-2",
+    "name": "HP ELITE BOOK840-G6",
+    "model": "ELITE BOOK840-G6",
+    "brandSlug": "hp",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 3520000,
+    "warranty": null,
+    "shortDesc": "I5-8 THGEN8GB 512GB SSDDOS14”WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I5-8"
+      },
+      {
+        "key": "Memory",
+        "value": "512GB"
+      }
+    ]
+  },
+  {
+    "slug": "hp-elite-book840-g7",
+    "name": "HP ELITE BOOK840-G7",
+    "model": "ELITE BOOK840-G7",
+    "brandSlug": "hp",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 4370000,
+    "warranty": null,
+    "shortDesc": "I5-10 THGEN 16GB 512GB SSDWIN 10 PRO14”WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I5-10"
+      },
+      {
+        "key": "Memory",
+        "value": "16GB"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-v330-14-ikbi3-8th8gb",
+    "name": "Lenovo V330-14 IKBI3-8TH8GB",
+    "model": "V330-14 IKBI3-8TH8GB",
+    "brandSlug": "lenovo",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 2620000,
+    "warranty": null,
+    "shortDesc": "256GB SSDDOS14”WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "256GB"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-thinkbook-14-imli5-10-thgen",
+    "name": "Lenovo THINKBOOK-14-IMLI5-10 THGEN",
+    "model": "THINKBOOK-14-IMLI5-10 THGEN",
+    "brandSlug": "lenovo",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 3730000,
+    "warranty": null,
+    "shortDesc": "8GB 512GB SSDDOS14”WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "8GB"
+      }
+    ]
+  },
+  {
+    "slug": "lenovo-thinkpad-t14-gen1",
+    "name": "Lenovo THINKPAD T14-GEN1",
+    "model": "THINKPAD T14-GEN1",
+    "brandSlug": "lenovo",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 4760000,
+    "warranty": null,
+    "shortDesc": "I7-10TH16GB 512GB SSDGPU 2 GBDOS14”WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I7-10TH16GB"
+      },
+      {
+        "key": "Memory",
+        "value": "512GB"
+      }
+    ]
+  },
+  {
+    "slug": "dell-latitude-7490",
+    "name": "Dell LATITUDE 7490",
+    "model": "LATITUDE 7490",
+    "brandSlug": "dell",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 3440000,
+    "warranty": null,
+    "shortDesc": "I5-8 THGEN8GB 512GB SSDDOS14” WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I5-8"
+      },
+      {
+        "key": "Memory",
+        "value": "512GB"
+      }
+    ]
+  },
+  {
+    "slug": "dell-latitude-3410",
+    "name": "Dell LATITUDE 3410",
+    "model": "LATITUDE 3410",
+    "brandSlug": "dell",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 2990000,
+    "warranty": null,
+    "shortDesc": "I3-10 THGEN8GB 512GB SSDDOS14” WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I3-10"
+      },
+      {
+        "key": "Memory",
+        "value": "512GB"
+      }
+    ]
+  },
+  {
+    "slug": "dell-latitude-3400",
+    "name": "Dell LATITUDE 3400",
+    "model": "LATITUDE 3400",
+    "brandSlug": "dell",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 3270000,
+    "warranty": null,
+    "shortDesc": "I5-8 THGEN8GB512 GBDOS14” WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I5-8"
+      }
+    ]
+  },
+  {
+    "slug": "dell-atitude-3410",
+    "name": "Dell ATITUDE 3410",
+    "model": "ATITUDE 3410",
+    "brandSlug": "dell",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 3630000,
+    "warranty": null,
+    "shortDesc": "I5-10 THGEN8GB512GB SSDDOS14” WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I5-10"
+      }
+    ]
+  },
+  {
+    "slug": "dell-latitude-3410-2",
+    "name": "Dell LATITUDE 3410",
+    "model": "LATITUDE 3410",
+    "brandSlug": "dell",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 3790000,
+    "warranty": null,
+    "shortDesc": "I5-10 THGEN16GB512GB SSDDOS 14” WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I5-10"
+      },
+      {
+        "key": "Display",
+        "value": "14”"
+      }
+    ]
+  },
+  {
+    "slug": "dell-i5-8",
+    "name": "Dell I5-8",
+    "model": "I5-8",
+    "brandSlug": "dell",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 3440000,
+    "warranty": null,
+    "shortDesc": "I5-8 THGEN8GB 512GB SSDDOS14” WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I5-8"
+      },
+      {
+        "key": "Memory",
+        "value": "512GB"
+      }
+    ]
+  },
+  {
+    "slug": "dell-we-offer-a-comprehensive-1-year",
+    "name": "Dell We offer a comprehensive 1-year",
+    "model": "We offer a comprehensive 1-year",
+    "brandSlug": "dell",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 3790000,
+    "warranty": null,
+    "shortDesc": "I7-8 THGEN16GB512GB SSDDOS 14” WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I7-8"
+      },
+      {
+        "key": "Display",
+        "value": "14”"
+      }
+    ]
+  },
+  {
+    "slug": "dell-latitude3420",
+    "name": "Dell LATITUDE3420",
+    "model": "LATITUDE3420",
+    "brandSlug": "dell",
+    "categorySlug": "refurbished-laptops",
+    "condition": "REFURBISHED",
+    "priceMinor": 4510000,
+    "warranty": null,
+    "shortDesc": "I7-11 THGEN16GB512GB SSD2GB GPUDOS 14” WEB CAM , WIFI",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "I7-11"
+      },
+      {
+        "key": "Display",
+        "value": "14”"
+      }
+    ]
+  },
+  {
+    "slug": "acer-ud-351si-0zc",
+    "name": "Acer UD.351SI.0ZC",
+    "model": "UD.351SI.0ZC",
+    "brandSlug": "acer",
+    "categorySlug": "branded-desktops",
+    "condition": "NEW",
+    "priceMinor": 5450000,
+    "warranty": "3 years",
+    "shortDesc": "i3-12100 8 GB 512 SSD 22\"LED DOS 3 YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i3-12100"
+      },
+      {
+        "key": "Memory",
+        "value": "8 GB"
+      },
+      {
+        "key": "Display",
+        "value": "22\""
+      },
+      {
+        "key": "Operating system",
+        "value": "DOS"
+      }
+    ]
+  },
+  {
+    "slug": "acer-ud-30-ksi-0a5",
+    "name": "Acer UD.30 KSI.0A5",
+    "model": "UD.30 KSI.0A5",
+    "brandSlug": "acer",
+    "categorySlug": "branded-desktops",
+    "condition": "NEW",
+    "priceMinor": 6350000,
+    "warranty": "3 years",
+    "shortDesc": "i5-12400 16 GB 512 SSD 22\"LED DOS 3 YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i5-12400"
+      },
+      {
+        "key": "Memory",
+        "value": "16 GB"
+      },
+      {
+        "key": "Display",
+        "value": "22\""
+      },
+      {
+        "key": "Operating system",
+        "value": "DOS"
+      }
+    ]
+  },
+  {
+    "slug": "hp-s03-0112",
+    "name": "HP S03-0112",
+    "model": "S03-0112",
+    "brandSlug": "hp",
+    "categorySlug": "branded-desktops",
+    "condition": "NEW",
+    "priceMinor": 5950000,
+    "warranty": null,
+    "shortDesc": "i3- 14100 8GB 512 G SSD 20\"LED WIN11+MSO3YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i3-"
+      },
+      {
+        "key": "Memory",
+        "value": "8GB"
+      },
+      {
+        "key": "Display",
+        "value": "20\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11+MSO3YR"
+      }
+    ]
+  },
+  {
+    "slug": "hp-s01-0014",
+    "name": "HP S01-0014",
+    "model": "S01-0014",
+    "brandSlug": "hp",
+    "categorySlug": "branded-desktops",
+    "condition": "NEW",
+    "priceMinor": 7850000,
+    "warranty": null,
+    "shortDesc": "i5 -14400 8GB 512 G SSD 20\"LED WIN11+MSO3YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i5 -14400"
+      },
+      {
+        "key": "Memory",
+        "value": "8GB"
+      },
+      {
+        "key": "Display",
+        "value": "20\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11+MSO3YR"
+      }
+    ]
+  },
+  {
+    "slug": "hp-s03-0745",
+    "name": "HP S03-0745",
+    "model": "S03-0745",
+    "brandSlug": "hp",
+    "categorySlug": "branded-desktops",
+    "condition": "NEW",
+    "priceMinor": 10180000,
+    "warranty": null,
+    "shortDesc": "i7 -14700 8GB 1TB SSD 20\"LED WIN11+MSO1 YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i7 -14700"
+      },
+      {
+        "key": "Memory",
+        "value": "8GB"
+      },
+      {
+        "key": "Storage",
+        "value": "1TB SSD"
+      },
+      {
+        "key": "Display",
+        "value": "20\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11+MSO1 YR"
+      }
+    ]
+  },
+  {
+    "slug": "dell-slim-ecs1250",
+    "name": "Dell SLIM ECS1250",
+    "model": "SLIM ECS1250",
+    "brandSlug": "dell",
+    "categorySlug": "branded-desktops",
+    "condition": "NEW",
+    "priceMinor": 5750000,
+    "warranty": null,
+    "shortDesc": "i3 -14100 8GB 512 G SSD 20\"LED WIN11+MSO3YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i3 -14100"
+      },
+      {
+        "key": "Memory",
+        "value": "8GB"
+      },
+      {
+        "key": "Display",
+        "value": "20\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11+MSO3YR"
+      }
+    ]
+  },
+  {
+    "slug": "dell-slim-ecs1250-2",
+    "name": "Dell SLIM ECS1250",
+    "model": "SLIM ECS1250",
+    "brandSlug": "dell",
+    "categorySlug": "branded-desktops",
+    "condition": "NEW",
+    "priceMinor": 6950000,
+    "warranty": null,
+    "shortDesc": "i5-14400 8GB 512 G SSD 22\"WIN11+MSO3YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i5-14400"
+      },
+      {
+        "key": "Memory",
+        "value": "8GB"
+      },
+      {
+        "key": "Display",
+        "value": "22\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11+MSO3YR"
+      }
+    ]
+  },
+  {
+    "slug": "dell-aio-ec24250",
+    "name": "Dell AIO EC24250",
+    "model": "AIO EC24250",
+    "brandSlug": "dell",
+    "categorySlug": "all-in-one-desktops",
+    "condition": "NEW",
+    "priceMinor": 6390000,
+    "warranty": null,
+    "shortDesc": "CORE 3 100U8 GB 512 SSD 24\" FHDWIN11+MSO3YR",
+    "specs": [
+      {
+        "key": "Display",
+        "value": "24\""
+      }
+    ]
+  },
+  {
+    "slug": "dell-aio-inspiron-5430",
+    "name": "Dell AIO INSPIRON 5430",
+    "model": "AIO INSPIRON 5430",
+    "brandSlug": "dell",
+    "categorySlug": "all-in-one-desktops",
+    "condition": "NEW",
+    "priceMinor": 7050000,
+    "warranty": null,
+    "shortDesc": "CORE i5-1235U8 GB 512 SSD 24\"FHD WIN11+MSO3YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "CORE i5-1235U8"
+      },
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11+MSO3YR"
+      }
+    ]
+  },
+  {
+    "slug": "dell-aio-inspiron-5430-2",
+    "name": "Dell AIO INSPIRON 5430",
+    "model": "AIO INSPIRON 5430",
+    "brandSlug": "dell",
+    "categorySlug": "all-in-one-desktops",
+    "condition": "NEW",
+    "priceMinor": 8890000,
+    "warranty": null,
+    "shortDesc": "CORE i7-1355U16 GB 512 SSD 24\"FHD WIN11+MSO3YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "CORE i7-1355U16"
+      },
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11+MSO3YR"
+      }
+    ]
+  },
+  {
+    "slug": "hp-aio-24-cr0477-incore",
+    "name": "HP AIO 24-Cr0477 INCORE",
+    "model": "AIO 24-Cr0477 INCORE",
+    "brandSlug": "hp",
+    "categorySlug": "all-in-one-desktops",
+    "condition": "NEW",
+    "priceMinor": 7390000,
+    "warranty": null,
+    "shortDesc": "i5-1334U8 GB 512 SSD 24\"FHD WIN11+MSO1YR",
+    "specs": [
+      {
+        "key": "Processor",
+        "value": "i5-1334U8"
+      },
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11+MSO1YR"
+      }
+    ]
+  },
+  {
+    "slug": "hp-aio-24-cr-0906-ini3-1315-u",
+    "name": "HP AIO 24-Cr 0906 INi3-1315 U",
+    "model": "AIO 24-Cr 0906 INi3-1315 U",
+    "brandSlug": "hp",
+    "categorySlug": "all-in-one-desktops",
+    "condition": "NEW",
+    "priceMinor": 6950000,
+    "warranty": "1 year",
+    "shortDesc": "8 GB 512 SSD 24\"FHD WIN11 1YR",
+    "specs": [
+      {
+        "key": "Memory",
+        "value": "8 GB"
+      },
+      {
+        "key": "Display",
+        "value": "24\""
+      },
+      {
+        "key": "Operating system",
+        "value": "WIN11 1YR"
+      }
+    ]
+  },
+  {
+    "slug": "canon-ts-207",
+    "name": "Canon TS-207",
+    "model": "TS-207",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 300000,
+    "warranty": "1 year",
+    "shortDesc": "SINGLE FUNCTION INKJET PRINTER, 7.7/4.0 IPM, 4800 X 1200 DPI, 60 SHEETS INPUT, SCRATCH RESISTANT SURFACE, USP 2.0, 1 YEAR ONSITE WARRANTYPG 745 & CL 746",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "4800 X 1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "canon-mg-2570-sprint-scan-copy",
+    "name": "Canon MG 2570 SPRINT, SCAN, COPY",
+    "model": "MG 2570 SPRINT, SCAN, COPY",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 400000,
+    "warranty": null,
+    "shortDesc": "PRINT SPEED 8.0/4.0 IPM,SCAN 600x1200 DPI, CIS SCANNER, AUTO POWER ON/OFFPG 745S BLKCL 746S CLR",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "600x1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "hp-2820-aio",
+    "name": "HP 2820 AIO",
+    "model": "2820 AIO",
+    "brandSlug": "hp",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 685000,
+    "warranty": null,
+    "shortDesc": "Print, copy, scan Print Speed up to 7.5 ppm(black) and up to 5.5 ppm (color Apple Air Print™; Google Cloud Print™; USB; Wireless (Wi-Fi®); Bluetooth; Wireless direct printing Print",
+    "specs": [
+      {
+        "key": "Connectivity",
+        "value": "USB"
+      }
+    ]
+  },
+  {
+    "slug": "hp-4929-aio",
+    "name": "HP 4929 AIO",
+    "model": "4929 AIO",
+    "brandSlug": "hp",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1000000,
+    "warranty": null,
+    "shortDesc": "Print, copy, scan, wireless Print Speed up to 20 ppm(black) and up to 5.5 ppm (color Apple Air Print™; Google Cloud Print™; USB; Wireless (Wi-Fi®); Bluetooth; Wireless direct print",
+    "specs": [
+      {
+        "key": "Connectivity",
+        "value": "USB"
+      }
+    ]
+  },
+  {
+    "slug": "epson-m1100",
+    "name": "Epson M1100",
+    "model": "M1100",
+    "brandSlug": "epson",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1250000,
+    "warranty": "3 years",
+    "shortDesc": "SINGLE FUNCTION PRINTER,A4 15 IPM MONO, 1440x720 DPI, 150 SHEET A4 PAPER INPUT, 3 YEARS WARRANTY or 1,00,000 PAGES WHICH EVER IS EARLIEREPSON005 BLACK",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "1440x720"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "canon-g-1010print-only",
+    "name": "Canon G-1010Print only",
+    "model": "G-1010Print only",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 850000,
+    "warranty": "1 year",
+    "shortDesc": "4800x1200 dpi, speed 8.8/5.0 ipm (Bk/Cl) USB Hi-speed, Bk-6000, CL-7000 pages, 1 year onsite warranty or 15000 print whichever is earlier GI-790 SERIES",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "4800x1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "epson-l130print-only",
+    "name": "Epson L130Print only",
+    "model": "L130Print only",
+    "brandSlug": "epson",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1050000,
+    "warranty": null,
+    "shortDesc": "5760x1440 dpi, speed 7/3.5 ipm (Bk/Cl) USB Hi-speed, Bk-4500, CL-7500 pages, A41 year warranty or 15000 print whichever is earlier EPSON664 BLK&CLR",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "5760x1440"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "canon-g-1730",
+    "name": "Canon G-1730",
+    "model": "G-1730",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1025000,
+    "warranty": "1 year",
+    "shortDesc": "PRINT SPEED A4 11 MONO 6 COLOR, 4800 X 1200 dpi, 100 SHEETS PAPER INPUT, , MONO 3100 AND COLOR 4400 PRINT,1 YEAR ONSITE WARRANTY OR 30000 PRINTS WHICH EVER EARLIERGI-71s SERIES,",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "4800 X 1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "canon-gm-2070",
+    "name": "Canon GM-2070",
+    "model": "GM-2070",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1350000,
+    "warranty": "1 year",
+    "shortDesc": "SINGLE FUNCTION PRINTER WITH WI-FI, 13.0 IPM MONO, 600 X 1200 DPI, 250 + 100 SHEET PAPER INPUT, ETHERNET, 1 YEAR ONSITE WARRANTY OR 30000 PRINTS WHICHEVER IS EARLIERGI 70 BLK",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "600 X 1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "epson-m1120",
+    "name": "Epson M1120",
+    "model": "M1120",
+    "brandSlug": "epson",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1350000,
+    "warranty": "3 years",
+    "shortDesc": "SINGLE FUNCTION PRINTER WITH WI-FI, 15 IPM MONO, 1440x720 DPI, 150 A4 SHEET PAPER INPUT, WIFI DIRECT 3 YEARS WARRANTY or 1,00,000 PAGES WHICH EVER IS EARLIEREPSON005 BLACK",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "1440x720"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "canon-g-5706-colour-photo-printer-5-08",
+    "name": "Canon G-5706 COLOUR PHOTO PRINTER, 5.08",
+    "model": "G-5706 COLOUR PHOTO PRINTER, 5.08",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1750000,
+    "warranty": "1 year",
+    "shortDesc": "PRINT SPEED 10.16/15.24 (4\"X6\"), PRINT RESOLUTION 4800 X 1200 DPI, WI-FI, AIRPRINT CLOUD PRINT, 1 YEAR ONSITE OR 3000 PRINTS WHICHEVER IS EARLIERGI-73 SERIES",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "4800 X 1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "hp-smart-tank-210-printer",
+    "name": "HP Smart Tank 210 Printer",
+    "model": "Smart Tank 210 Printer",
+    "brandSlug": "hp",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1275000,
+    "warranty": null,
+    "shortDesc": "SINGLE FUNCTION PRINTER WITH WI-FI, 12 PPM MONO 5 PPM COLOR, 4800 x 1200 DPI, 100 A4 SHEET PAPER INPUT, WIFI DIRECT1 YEAR WARRANTY OR 30000 PRINTS WHICHEVER IS EARLIERGT 53 BLKGT 5",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "4800 x 1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "epson-m2110print-scan",
+    "name": "Epson M2110Print, Scan,",
+    "model": "M2110Print, Scan,",
+    "brandSlug": "epson",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1690000,
+    "warranty": "3 years",
+    "shortDesc": "1440x720 DPI, 150 A4 SHEET PAPER INPUT TRAY, 3 YR WARRANTY OR 1,00,000 PRINTS WHICHEVER IS EARLIER,EPSON005 BLACK",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "1440x720"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "canon-g-2010print-scan-copy",
+    "name": "Canon G-2010Print, Scan, Copy",
+    "model": "G-2010Print, Scan, Copy",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1250000,
+    "warranty": "1 year",
+    "shortDesc": "4800 x 1200 dpi, scan resolution 600 x 1200 dpi, USB Hi-speed, Bk-6000, CL-7000 pages,3.04 cm LCD, 1 year onsite warranty or 15000 print whichever is earlier GI-790 SERIES",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "4800 x 1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "canon-g-2730print-scan-copy",
+    "name": "Canon G-2730Print, Scan, Copy",
+    "model": "G-2730Print, Scan, Copy",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1750000,
+    "warranty": "2 years",
+    "shortDesc": "4800 x 1200 dpi, scan resolution 600 x 1200 dpi, USB Hi-speed, Bk-6000, CL-7000 pages,3.04 cm LCD, 2year warranty or 15000 print whichever is earlier GI-790 SERIES",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "4800 x 1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "epson-l3210print-scan-copy",
+    "name": "Epson L3210Print, Scan, Copy",
+    "model": "L3210Print, Scan, Copy",
+    "brandSlug": "epson",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1350000,
+    "warranty": "1 year",
+    "shortDesc": "PRINT SPEED 10/5 IPM (BLK/CLR)5760x1440 DPI, 100 A4 SHEET PAPER INPUT TRAY,1 YR WARRANTY OR 30,000 PRINTS WHICHEVER IS EARLIER,EPSON003 BLK003 CLR",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "5760x1440"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "hp-520print-scan-copy",
+    "name": "HP 520Print, Scan, Copy",
+    "model": "520Print, Scan, Copy",
+    "brandSlug": "hp",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1350000,
+    "warranty": "2 years",
+    "shortDesc": "PRINT SPEED 12/5 PPM (BLK/CLR)4800x1200 DPI, 100 A4 SHEET PAPER INPUT TRAY,2 YR WARRANTY OR 30,000 PRINTS WHICHEVER IS EARLIER,GT 53 BLKGT 52 CLR",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "4800x1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "hp-525print-scan-copy",
+    "name": "HP 525Print, Scan, Copy",
+    "model": "525Print, Scan, Copy",
+    "brandSlug": "hp",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1190000,
+    "warranty": "1 year",
+    "shortDesc": "PRINT SPEED 12/5 PPM (BLK/CLR)4800x1200 DPI, 100 A4 SHEET PAPER INPUT TRAY,1 YR WARRANTY OR 30,000 PRINTS WHICHEVER IS EARLIER,GT 53 BLKGT 52 CLR",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "4800x1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "brother-dcp-t230print-scan-copy",
+    "name": "Brother DCP T230Print, Scan, Copy",
+    "model": "DCP T230Print, Scan, Copy",
+    "brandSlug": "brother",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1150000,
+    "warranty": "1 year",
+    "shortDesc": "PRINT SPEED 16/9 IPM (BLK/CLR)Yield up to 7500/5000 pages (black/colour)6000x1200 DPI, 150 A4 SHEET PAPER INPUT TRAY,1 YR WARRANTY OR 30,000 PRINTS WHICHEVER IS EARLIER,BT D100 BKB",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "6000x1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "epson-m2120print-scan-copy-wi-fiprint",
+    "name": "Epson M2120Print, Scan, Copy,WI-FIPRINT",
+    "model": "M2120Print, Scan, Copy,WI-FIPRINT",
+    "brandSlug": "epson",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1690000,
+    "warranty": "3 years",
+    "shortDesc": "1440x720 DPI, 150 A4 SHEET PAPER INPUT TRAY, 3 YR WARRANTY OR 1,00,000 PRINTS WHICHEVER IS EARLIER,EPSON005 BLACK",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "1440x720"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "canon-gm-4070-adf-duplex-print-scan-cop",
+    "name": "Canon GM 4070 (ADF&DUPLEX)PRINT/SCAN/COP",
+    "model": "GM 4070 (ADF&DUPLEX)PRINT/SCAN/COP",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1590000,
+    "warranty": "1 year",
+    "shortDesc": "PRINT, 1 YEAR ONSITE WARRANTY OR 30000 PRINTS WHICHEVER IS EARLIERGI 70 BK",
+    "specs": []
+  },
+  {
+    "slug": "canon-g-3010print-scan-copy-wi-fi",
+    "name": "Canon G-3010Print, Scan, Copy, WI-FI",
+    "model": "G-3010Print, Scan, Copy, WI-FI",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1500000,
+    "warranty": "1 year",
+    "shortDesc": "PRINT SPEED 8.8/5 IPM,4800 X 1200 DPI, 100 SHEET PAPER INPUT TRAY, 1 YR ONSITE WARRANTY OR 15,000 PRINTS WHICHEVER IS EARLIER,GI-790 SERIES",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "4800 X 1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "canon-g3780print-scan-copy",
+    "name": "Canon G3780Print, Scan, Copy,",
+    "model": "G3780Print, Scan, Copy,",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1790000,
+    "warranty": null,
+    "shortDesc": "PRINT SPEED 11.0/6.0 IPM ,PRINT RESOLUTION OF 4800X1200 DPI,CIS GI-71 SERIES",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "4800X1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "canon-g3780",
+    "name": "Canon G3780",
+    "model": "G3780",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1790000,
+    "warranty": "2 years",
+    "shortDesc": "G3780 FLATBED SCANNER UPTO600X1200 DPI,2 YR WARRANTY OR 30,000 PRINTS WHICHEVER IS EARLIERGI-71 SERIES",
+    "specs": [
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "hp-585print-scan-copy-wi-fiprint",
+    "name": "HP 585Print, Scan, Copy,WI-FIPRINT",
+    "model": "585Print, Scan, Copy,WI-FIPRINT",
+    "brandSlug": "hp",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1490000,
+    "warranty": null,
+    "shortDesc": "4800x1200 DPI, 100 A4 SHEET PAPER INPUT TRAY, WIFI DIRECT1 YR WARRANTY OR 30,000 PRINTS WHICHEVER IS EARLIER,GT 53 BLKGT 52 CLR",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "4800x1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "hp-580print-scan-copy-wi-fiprint",
+    "name": "HP 580Print, Scan, Copy,WI-FIPRINT",
+    "model": "580Print, Scan, Copy,WI-FIPRINT",
+    "brandSlug": "hp",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1590000,
+    "warranty": null,
+    "shortDesc": "4800x1200 DPI, 100 A4 SHEET PAPER INPUT TRAY, WIFI DIRECT2 YR WARRANTY OR 30,000 PRINTS WHICHEVER IS EARLIER,GT 53 BLKGT 52 CLR",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "4800x1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "epson-l3250print-scan-copy",
+    "name": "Epson L3250Print, Scan, Copy,",
+    "model": "L3250Print, Scan, Copy,",
+    "brandSlug": "epson",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1600000,
+    "warranty": "1 year",
+    "shortDesc": "5760x1440 DPI, 100 A4 SHEET PAPER INPUT TRAY,1 YR WARRANTY OR 30,000 PRINTS WHICHEVER IS EARLIER,EPSON003 BLK003 CLR",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "5760x1440"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "brother-dcp-t420wprint-scan",
+    "name": "Brother DCP T420WPrint, Scan,",
+    "model": "DCP T420WPrint, Scan,",
+    "brandSlug": "brother",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1425000,
+    "warranty": "1 year",
+    "shortDesc": "6000x1200 DPI, 150 A4 SHEET PAPER INPUT TRAY,1 YR WARRANTY OR 30,000 PRINTS WHICHEVER IS EARLIER,BT D60 BKBT5000 CLR",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "6000x1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "brother-dcp-t430wprint-scan",
+    "name": "Brother DCP T430WPrint, Scan,",
+    "model": "DCP T430WPrint, Scan,",
+    "brandSlug": "brother",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1450000,
+    "warranty": "1 year",
+    "shortDesc": "6000x1200 DPI, 150 A4 SHEET PAPER INPUT TRAY,1 YR WARRANTY OR 30,000 PRINTS WHICHEVER IS EARLIER,BT D100 BKBT D100 CLR",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "6000x1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "brother-dcp-t530dw-duplex",
+    "name": "Brother DCP T530DW(DUPLEX)",
+    "model": "DCP T530DW(DUPLEX)",
+    "brandSlug": "brother",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1650000,
+    "warranty": null,
+    "shortDesc": "Print, Scan, Copy,WI-FI,WI-FI DIRECT, DUPLEXPRINT SPEED 17/9.5 IPM (BLK/CLR)Yield up to 7500/5000 pages (black/colour)6000x1200 DPI, 150 A4 SHEET PAPER INPUT TRAY,1-LINE LCD DISPLA",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "6000x1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "brother-dcp-t730dw-duplex",
+    "name": "Brother DCP T730DW(DUPLEX)",
+    "model": "DCP T730DW(DUPLEX)",
+    "brandSlug": "brother",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1890000,
+    "warranty": "2 years",
+    "shortDesc": "PRINT,SCAN,COPY,DUPLEX PRINTING High Speed USB 2.0, Dual Band Wi Fi (2.4 GHz / 5.0 GHz), Wi Fi Direct ADF (20sheets), 1 sheet Optional Tray, 150sheet input Tray, 128MB Memory, 1 Li",
+    "specs": [
+      {
+        "key": "Connectivity",
+        "value": "USB 2"
+      }
+    ]
+  },
+  {
+    "slug": "brother-dcp-t830dw-adf-duplex-new",
+    "name": "Brother DCP T830DW(ADF & DUPLEX) (NEW)",
+    "model": "DCP T830DW(ADF & DUPLEX) (NEW)",
+    "brandSlug": "brother",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 2090000,
+    "warranty": null,
+    "shortDesc": "Print, Scan, Copy,WI-FI,WI-FI DIRECT,ETHERNETPRINT SPEED 17/16.5 IPM (BLK/CLR)Yield up to 15000/5000 pages (black/colour), Auto 2-sided (Duplex) printing, 20 sheets Auto-Document F",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "6000x1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "DP"
+      }
+    ]
+  },
+  {
+    "slug": "hp-laser-jet-1008a21-ppm-speed-upto",
+    "name": "HP Laser Jet 1008A21 PPM Speed, Upto",
+    "model": "Laser Jet 1008A21 PPM Speed, Upto",
+    "brandSlug": "hp",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1200000,
+    "warranty": null,
+    "shortDesc": "1200X1200 dpi, 64MB Ram, 150 paper cassette, USB 2.0 , Windows, MAC support, 10,000 prints Duty Cycle1YR WARRANTYHPTONER 166A",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "1200X1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "canon-lbp-6030b18-ppm-speed-upto",
+    "name": "Canon LBP 6030B18 PPM Speed, Upto",
+    "model": "LBP 6030B18 PPM Speed, Upto",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1275000,
+    "warranty": null,
+    "shortDesc": "2400 x 600 dpi, 32MB Ram, 150 paper cassette, USB 2.0 , SCo A & CAPT, Windows, MAC & Linux support, 5000 prints Duty Cycle1YR WARRANTYCANONTONER 925",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "2400 x 600"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "brother-hl-l2400d30-ppm-speed",
+    "name": "Brother HL-L2400D30 PPM Speed,",
+    "model": "HL-L2400D30 PPM Speed,",
+    "brandSlug": "brother",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1300000,
+    "warranty": null,
+    "shortDesc": "TN2480",
+    "specs": []
+  },
+  {
+    "slug": "brother-hl-l2321d30-ppm-speed",
+    "name": "Brother HL-L2321D30 PPM Speed,",
+    "model": "HL-L2321D30 PPM Speed,",
+    "brandSlug": "brother",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1299000,
+    "warranty": null,
+    "shortDesc": "2400 x 600 dpi, 8MB Ram, 250 paper cassette, USB 2.0 , Windows, MAC support, 10,000 prints Duty Cycle1YR WARRANTYBROTHERTONER TN2365",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "2400 x 600"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "canon-lbp-121-dn29-ppm-auto-duplexing",
+    "name": "Canon LBP 121 DN29 PPM, Auto-duplexing,",
+    "model": "LBP 121 DN29 PPM, Auto-duplexing,",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1690000,
+    "warranty": null,
+    "shortDesc": "600 X 600 dpi, 150 Sheet paper input, 100 sheets output, USB 2.0, 256 MB ram, 4.57 cm LCD screen, 20,000 prints Duty Cycle1YR WARRANTYCANONTONER 071",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "600 X 600"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "hp-laser-jet-1008w21-ppm-speed-wi",
+    "name": "HP Laser Jet 1008W21 PPM Speed,Wi",
+    "model": "Laser Jet 1008W21 PPM Speed,Wi",
+    "brandSlug": "hp",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1390000,
+    "warranty": null,
+    "shortDesc": "1200X1200 dpi, 64MB Ram, 150 paper cassette, USB 2.0 , Windows, MAC support, 10,000 prints Duty Cycle1YR WARRANTYHPTONER 166A",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "1200X1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "canon-lbp-6030w18-ppm-speed-upto",
+    "name": "Canon LBP 6030W18 PPM Speed, Upto",
+    "model": "LBP 6030W18 PPM Speed, Upto",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1375000,
+    "warranty": null,
+    "shortDesc": "2400 x 600 dpi, 32MB Ram, 150 paper cassette, USB 2.0 , SCo A & CAPT,Wi Fi, Windows, MAC & Linux support, 5000 prints Duty Cycle CANONCATRIDGE 925",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "2400 x 600"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "canon-lbp-122-dw29-ppm-auto-duplexing",
+    "name": "Canon LBP 122 DW29 PPM, Auto-duplexing,",
+    "model": "LBP 122 DW29 PPM, Auto-duplexing,",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1775000,
+    "warranty": null,
+    "shortDesc": "600 X 600 dpi, 150 Sheet paper input, 100 sheets output, USB 2.0, 256 MB ram, 4.57 cm LCD screen, 20000 prints Duty Cycle CANONCATRIDGE 071",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "600 X 600"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "brother-b7600-dbprint-scan-copy-34-ppm",
+    "name": "Brother B7600 DBPRINT, SCAN, COPY ,34 PPM",
+    "model": "B7600 DBPRINT, SCAN, COPY ,34 PPM",
+    "brandSlug": "brother",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1750000,
+    "warranty": null,
+    "shortDesc": "1200x1200 dpi, 256 MB Ram, 250 paper cassette, USB 2.0 , Windows, 15,000 prints Duty Cycle1YR WARRANTYBROTHERTONER TNB021",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "1200x1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "canon-mf-3010-print-scan-copy",
+    "name": "Canon MF 3010 PRINT-SCAN-COPY",
+    "model": "MF 3010 PRINT-SCAN-COPY",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1690000,
+    "warranty": null,
+    "shortDesc": "600 x 600 dpi, 18 PPM, 64MB RAM, 150 sheet input, 100 sheets output, CIS Scanner, 600dpi, PULL Scan, 8000 prints duty cycle, Windows, MAC & Linux support1YR WARRANTYCANONTONER 925",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "600 x 600"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "hp-laser-jet-1188-aprint-scan",
+    "name": "HP Laser Jet 1188 APRINT, SCAN,",
+    "model": "Laser Jet 1188 APRINT, SCAN,",
+    "brandSlug": "hp",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1700000,
+    "warranty": null,
+    "shortDesc": "1200X1200 dpi, 128 MB Ram, 150 paper cassette, USB 2.0 , Windows, MAC support, 10,000 prints Duty Cycle1YR WARRANTYHPTONER 166A",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "1200X1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "brother-dcp-b7620-dwbprint-scan-copy",
+    "name": "Brother DCP B7620 DWBPRINT, SCAN, COPY",
+    "model": "DCP B7620 DWBPRINT, SCAN, COPY",
+    "brandSlug": "brother",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 2090000,
+    "warranty": null,
+    "shortDesc": "1200x1200 dpi, 256 MB Ram, 250 paper cassette, USB 2.0 ,WIFI, ETHERNET,Windows, 35,000 prints Duty Cycle1YR WARRANTYBROTHERTONER TNB021",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "1200x1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "canon-mf-272-dwprint-scan-copy-duplex",
+    "name": "Canon MF 272 DWPRINT-SCAN-COPY, Duplex,",
+    "model": "MF 272 DWPRINT-SCAN-COPY, Duplex,",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 2525000,
+    "warranty": null,
+    "shortDesc": "600 x 600 dpi, 29 PPM, 256 MB RAM, 150 sheet input, 100 sheets output, CIS Scanner, 600dpi, PULL & PUSH Scan, 20000 prints duty cycle, Windows, MAC & Linux support CANONTONER 071",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "600 x 600"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "hp-laser-jet-1188-wprint-scan",
+    "name": "HP Laser Jet 1188 WPRINT, SCAN,",
+    "model": "Laser Jet 1188 WPRINT, SCAN,",
+    "brandSlug": "hp",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1900000,
+    "warranty": null,
+    "shortDesc": "1200X1200 dpi, 128 MB Ram, 150 paper cassette, USB 2.0 , WIFI ,Windows, MAC support, 10,000 prints Duty Cycle1YR WARRANTYHPTONER 166A",
+    "specs": [
+      {
+        "key": "Resolution",
+        "value": "1200X1200"
+      },
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "canon-3002400x4800",
+    "name": "Canon 3002400X4800",
+    "model": "3002400X4800",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 520000,
+    "warranty": "1 year",
+    "shortDesc": "LIDE 3002400X4800 dpi CIS, 48 bit, USB Powered scanner with scan to cloud,4 EZ buttons, PDF, Auto Scan, copy, send, Advanced Z lid, 1 high speed USB,1YR WRTY",
+    "specs": [
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "canon-4004800x4800",
+    "name": "Canon 4004800X4800",
+    "model": "4004800X4800",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 670000,
+    "warranty": "1 year",
+    "shortDesc": "LIDE 4004800X4800 dpi CIS, 48 bit,Upright Scanning, USB Powered scanner with scan to cloud,5 EZ buttons, PDF, Auto Scan, copy, send, Advanced Z lid, 1 High Speed USB,1YR WRTY",
+    "specs": [
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "canon-drp-215ii600x600",
+    "name": "Canon DRP-215II600x600",
+    "model": "DRP-215II600x600",
+    "brandSlug": "canon",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1800000,
+    "warranty": null,
+    "shortDesc": "DRP-215II600x600 dpi CIS, Upto 20sheets(adf capacity)15ppm(simplex),30ipm(duplex)Upright Scanning, USB Powered scanner with scan to cloud, 1 High Speed USB,ADF/DUPLEX1YR WRTY",
+    "specs": [
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "epson-v394800x4800",
+    "name": "Epson V394800X4800",
+    "model": "V394800X4800",
+    "brandSlug": "epson",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 585000,
+    "warranty": "1 year",
+    "shortDesc": "V394800X4800 dpi CIS,48 bit,Upright Scanning, USB Powered scanner with scan to cloud, 4 One-touch buttons, PDF, Auto Scan, copy, send, Dettachable lid, 1 High Speed USB, 1YR WRTY",
+    "specs": [
+      {
+        "key": "Connectivity",
+        "value": "dp"
+      }
+    ]
+  },
+  {
+    "slug": "epson-dot-matrix-printerstvs-msp-250",
+    "name": "Epson DOT MATRIX PRINTERSTVS MSP 250",
+    "model": "DOT MATRIX PRINTERSTVS MSP 250",
+    "brandSlug": "epson",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1390000,
+    "warranty": null,
+    "shortDesc": "PRINT HEAD:9-WIREPRINT WIDTH:80 COLOMNS1 YEAR WARRENTY",
+    "specs": []
+  },
+  {
+    "slug": "epson-lx310",
+    "name": "Epson LX310",
+    "model": "LX310",
+    "brandSlug": "epson",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1350000,
+    "warranty": null,
+    "shortDesc": "PRINT METHOD:SERIAL IMPACT DOT METRIX, BI-DIRECTIONAL LOGIC-SEEKING ,PRINT HEAD:9-WIREPRINT WIDTH:80 COLOMNS1 YEAR WARRENTY",
+    "specs": []
+  },
+  {
+    "slug": "epson-rp260iv",
+    "name": "Epson RP260IV",
+    "model": "RP260IV",
+    "brandSlug": "epson",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 650000,
+    "warranty": null,
+    "shortDesc": "RECIEPT PRINTERS BPOS RP260IV UEPRINT METHOD:DIRECT THERMAL,PRINTER WIDTH: 80 mm PRINTER SPEED:260 mm/SEC, USB+LAN2 YEAR WARRANTY",
+    "specs": [
+      {
+        "key": "Connectivity",
+        "value": "USB"
+      }
+    ]
+  },
+  {
+    "slug": "tvse-rp-3160",
+    "name": "TVSE RP-3160",
+    "model": "RP-3160",
+    "brandSlug": "tvse",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1075000,
+    "warranty": null,
+    "shortDesc": "RP-3160 GOLD AUPRINT METHOD:DIRECT THERMAL,PRINTER WIDTH: 80 mm PRINTER SPEED:160 mm/SEC, USB1 YEAR WARRANTY",
+    "specs": [
+      {
+        "key": "Connectivity",
+        "value": "USB1 YEAR W"
+      }
+    ]
+  },
+  {
+    "slug": "tvse-lp-46-dlite-allows-printing-wider",
+    "name": "TVSE LP 46 DLITE Allows printing wider",
+    "model": "LP 46 DLITE Allows printing wider",
+    "brandSlug": "tvse",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1275000,
+    "warranty": null,
+    "shortDesc": "Print Head with better wear resistance Easy operation and maintenance COMPACT, FOR HOME USEUSB INETRFACE1 YEAR WARRANTY",
+    "specs": []
+  },
+  {
+    "slug": "tvse-lp-46-lite-allows-printing-wider",
+    "name": "TVSE LP 46 LITE Allows printing wider",
+    "model": "LP 46 LITE Allows printing wider",
+    "brandSlug": "tvse",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 1490000,
+    "warranty": null,
+    "shortDesc": "Print Head with better wear resistance Easy operation and maintenance BIGGER, FOR RUGGED USEUSB INTERFACE1 YEAR WARRANTY",
+    "specs": []
+  },
+  {
+    "slug": "tvse-handheld1",
+    "name": "TVSE HANDHELD1",
+    "model": "HANDHELD1",
+    "brandSlug": "tvse",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 375000,
+    "warranty": null,
+    "shortDesc": "BARCODE SCANNERS HANDHELD1 DTVSBS-C101 STAR1D Barcode Wired Scanner,Express Speed at 330 scans per second1D CCD Imaging Technology, Durable and Strong design Enabled with Ultra sca",
+    "specs": [
+      {
+        "key": "Connectivity",
+        "value": "USB1 YEAR W"
+      }
+    ]
+  },
+  {
+    "slug": "tvse-pos1d",
+    "name": "TVSE POS1D",
+    "model": "POS1D",
+    "brandSlug": "tvse",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 250000,
+    "warranty": null,
+    "shortDesc": "DB POS1D 100Visible Laser Diode 650nm,Scan Rate 100 times/second,USB Scan Width 200 mm,Scan Depth of field 20-350mm1 YEAR WARRANTY",
+    "specs": [
+      {
+        "key": "Connectivity",
+        "value": "USB Scan Wi"
+      }
+    ]
+  },
+  {
+    "slug": "tvse-w-l1d",
+    "name": "TVSE W/L1D",
+    "model": "W/L1D",
+    "brandSlug": "tvse",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 430000,
+    "warranty": "1 year",
+    "shortDesc": "BARCODE SCANNERS HANDHELD W/L1D BS-L150 WL Visible Laser Diode 650nm,Scan Rate 150 times/second,USB W/LScan Depth of field 10-250mm Battery: 2200 m Ah 1 YEAR WARRANTY",
+    "specs": [
+      {
+        "key": "Connectivity",
+        "value": "USB W"
+      }
+    ]
+  },
+  {
+    "slug": "tvse-bs-i201s",
+    "name": "TVSE BS-i201s",
+    "model": "BS-i201s",
+    "brandSlug": "tvse",
+    "categorySlug": "printers",
+    "condition": "NEW",
+    "priceMinor": 570000,
+    "warranty": "1 year",
+    "shortDesc": "D BS-i201s WL Scan Rate 150 times/second,USB W/LScan Depth of field 50-200mm Battery: 1400 m Ah 1 YEAR WARRANTY",
+    "specs": [
+      {
+        "key": "Connectivity",
+        "value": "USB W"
+      }
+    ]
+  },
+  {
+    "slug": "foxin-600va12v",
+    "name": "Foxin 600VA12V",
+    "model": "600VA12V",
+    "brandSlug": "foxin",
+    "categorySlug": "power-backup",
+    "condition": "NEW",
+    "priceMinor": 290000,
+    "warranty": "2 years",
+    "shortDesc": "600VA12V 2YR 1YR",
+    "specs": []
+  },
+  {
+    "slug": "frontech-frontech",
+    "name": "Frontech",
+    "model": null,
+    "brandSlug": "frontech",
+    "categorySlug": "power-backup",
+    "condition": "NEW",
+    "priceMinor": 290000,
+    "warranty": "2 years",
+    "shortDesc": "12V 2YR 1YR",
+    "specs": [
+      {
+        "key": "Voltage",
+        "value": "12V"
+      }
+    ]
+  },
+  {
+    "slug": "fingers-fingers",
+    "name": "Fingers",
+    "model": null,
+    "brandSlug": "fingers",
+    "categorySlug": "power-backup",
+    "condition": "NEW",
+    "priceMinor": 330000,
+    "warranty": "2 years",
+    "shortDesc": "12V 2YR 1YR",
+    "specs": [
+      {
+        "key": "Voltage",
+        "value": "12V"
+      }
+    ]
+  },
+  {
+    "slug": "numeric-numeric",
+    "name": "Numeric",
+    "model": null,
+    "brandSlug": "numeric",
+    "categorySlug": "power-backup",
+    "condition": "NEW",
+    "priceMinor": 360000,
+    "warranty": "2 years",
+    "shortDesc": "12V 2YR 1YR",
+    "specs": [
+      {
+        "key": "Voltage",
+        "value": "12V"
+      }
+    ]
+  },
+  {
+    "slug": "v-guard-v-guard",
+    "name": "V-Guard",
+    "model": null,
+    "brandSlug": "v-guard",
+    "categorySlug": "power-backup",
+    "condition": "NEW",
+    "priceMinor": 420000,
+    "warranty": "2 years",
+    "shortDesc": "12V 2YR 1YR",
+    "specs": [
+      {
+        "key": "Voltage",
+        "value": "12V"
+      }
+    ]
+  },
+  {
+    "slug": "zebronics-zebronics",
+    "name": "Zebronics",
+    "model": null,
+    "brandSlug": "zebronics",
+    "categorySlug": "power-backup",
+    "condition": "NEW",
+    "priceMinor": 290000,
+    "warranty": "2 years",
+    "shortDesc": "12V 2YR 1YR",
+    "specs": [
+      {
+        "key": "Voltage",
+        "value": "12V"
+      }
+    ]
+  },
+  {
+    "slug": "apc-apc",
+    "name": "APC",
+    "model": null,
+    "brandSlug": "apc",
+    "categorySlug": "power-backup",
+    "condition": "NEW",
+    "priceMinor": 400000,
+    "warranty": "2 years",
+    "shortDesc": "12V 2YR 1YR",
+    "specs": [
+      {
+        "key": "Voltage",
+        "value": "12V"
+      }
+    ]
+  },
+  {
+    "slug": "foxin-1kv12v",
+    "name": "Foxin 1KV12V",
+    "model": "1KV12V",
+    "brandSlug": "foxin",
+    "categorySlug": "power-backup",
+    "condition": "NEW",
+    "priceMinor": 520000,
+    "warranty": "2 years",
+    "shortDesc": "1KV12V 2YR 1YR",
+    "specs": []
+  },
+  {
+    "slug": "fingers-fingers-2",
+    "name": "Fingers",
+    "model": null,
+    "brandSlug": "fingers",
+    "categorySlug": "power-backup",
+    "condition": "NEW",
+    "priceMinor": 590000,
+    "warranty": "2 years",
+    "shortDesc": "12V 2YR 1YR",
+    "specs": [
+      {
+        "key": "Voltage",
+        "value": "12V"
+      }
+    ]
+  },
+  {
+    "slug": "numeric-numeric-2",
+    "name": "Numeric",
+    "model": null,
+    "brandSlug": "numeric",
+    "categorySlug": "power-backup",
+    "condition": "NEW",
+    "priceMinor": 650000,
+    "warranty": "2 years",
+    "shortDesc": "12V 2YR 1YR",
+    "specs": [
+      {
+        "key": "Voltage",
+        "value": "12V"
+      }
+    ]
+  },
+  {
+    "slug": "v-guard-v-guard-2",
+    "name": "V-Guard",
+    "model": null,
+    "brandSlug": "v-guard",
+    "categorySlug": "power-backup",
+    "condition": "NEW",
+    "priceMinor": 700000,
+    "warranty": "2 years",
+    "shortDesc": "12V 2YR 1YR",
+    "specs": [
+      {
+        "key": "Voltage",
+        "value": "12V"
+      }
+    ]
+  },
+  {
+    "slug": "apc-apc-2",
+    "name": "APC",
+    "model": null,
+    "brandSlug": "apc",
+    "categorySlug": "power-backup",
+    "condition": "NEW",
+    "priceMinor": 790000,
+    "warranty": "2 years",
+    "shortDesc": "12V 2YR 1YR",
+    "specs": [
+      {
+        "key": "Voltage",
+        "value": "12V"
+      }
+    ]
+  },
+  {
+    "slug": "apc-kva12v",
+    "name": "APC KVA12V",
+    "model": "KVA12V",
+    "brandSlug": "apc",
+    "categorySlug": "power-backup",
+    "condition": "NEW",
+    "priceMinor": 1700000,
+    "warranty": "2 years",
+    "shortDesc": "1 KVA12V 2YR 1YR13,9001.5 KVA12V 2YR 1YR",
+    "specs": []
+  },
+  {
+    "slug": "atec-1-kva",
+    "name": "Atec 1 KVA",
+    "model": "1 KVA",
+    "brandSlug": "atec",
+    "categorySlug": "power-backup",
+    "condition": "NEW",
+    "priceMinor": 2520000,
+    "warranty": "2 years",
+    "shortDesc": "12V 2YR 1YR12,3002 KVA 12V 2YR 1YR19,4503 KVA 24V 2YR 1YR",
+    "specs": [
+      {
+        "key": "Capacity",
+        "value": "3002 KVA"
+      },
+      {
+        "key": "Voltage",
+        "value": "12V"
+      }
+    ]
+  },
+  {
+    "slug": "uniline-kva12v2yr",
+    "name": "Uniline KVA12V2YR",
+    "model": "KVA12V2YR",
+    "brandSlug": "uniline",
+    "categorySlug": "power-backup",
+    "condition": "NEW",
+    "priceMinor": 3400000,
+    "warranty": "1 year",
+    "shortDesc": "1 KVA12V2YR 1YR21,3002 KVA12V2YR 1YR",
+    "specs": []
+  },
+  {
+    "slug": "exide-1125va12v2yr",
+    "name": "Exide 1125VA12V2YR",
+    "model": "1125VA12V2YR",
+    "brandSlug": "exide",
+    "categorySlug": "power-backup",
+    "condition": "NEW",
+    "priceMinor": 950000,
+    "warranty": "1 year",
+    "shortDesc": "1125VA12V2YR 1YR",
+    "specs": []
+  },
+  {
+    "slug": "hbm-525",
+    "name": "Ergonomic Mid Back Chair",
+    "model": "HBM-525",
+    "brandSlug": null,
+    "categorySlug": "computer-furniture",
+    "condition": "NEW",
+    "priceMinor": 680000,
+    "warranty": null,
+    "shortDesc": "Seat molded foam with black fabric upholstery, Backrest in high quality PP net, Adjustable lumbar support, Fixed PP Armrest, Standard Mechanism with single locking, Heavy duty Gas ",
+    "specs": [
+      {
+        "key": "Code",
+        "value": "HBM-525"
+      }
+    ]
+  },
+  {
+    "slug": "hbm-528",
+    "name": "Medium Back Chair",
+    "model": "HBM-528",
+    "brandSlug": null,
+    "categorySlug": "computer-furniture",
+    "condition": "NEW",
+    "priceMinor": 580000,
+    "warranty": null,
+    "shortDesc": "Seat high density molded foam upholstered in Black Standard fabric, Back rest in PP Net material,Fixed PP Armrest, Standard Mechanism with single locking facility, Class 4 Gas lift",
+    "specs": [
+      {
+        "key": "Code",
+        "value": "HBM-528"
+      }
+    ]
+  },
+  {
+    "slug": "mbm-523",
+    "name": "Ergonomic Mid Back Chair",
+    "model": "MBM-523",
+    "brandSlug": null,
+    "categorySlug": "computer-furniture",
+    "condition": "NEW",
+    "priceMinor": 480000,
+    "warranty": null,
+    "shortDesc": "Seat molded foam in black fabric upholstery, Backrest in high quality black mesh, Fixed PP Armrest, Standard Mechanism with single locking facility, Heavy duty Gas lift and Five St",
+    "specs": [
+      {
+        "key": "Code",
+        "value": "MBM-523"
+      }
+    ]
+  },
+  {
+    "slug": "mbm-527",
+    "name": "Staff chair",
+    "model": "MBM-527",
+    "brandSlug": null,
+    "categorySlug": "computer-furniture",
+    "condition": "NEW",
+    "priceMinor": 480000,
+    "warranty": null,
+    "shortDesc": "Seat in black fabric & back rest in black mesh Fixed PP arm rest , Standard Mechanism with single locking, Class 4 gas lift, and Metal five star base with smooth wheels.",
+    "specs": [
+      {
+        "key": "Code",
+        "value": "MBM-527"
+      }
+    ]
+  },
+  {
+    "slug": "mbm-531",
+    "name": "Medium Back Chair",
+    "model": "MBM-531",
+    "brandSlug": null,
+    "categorySlug": "computer-furniture",
+    "condition": "NEW",
+    "priceMinor": 580000,
+    "warranty": null,
+    "shortDesc": "Seat in molded foam with black fabric upholstery, Backrest in standard mesh finish, Fixed PP Armrest, Standard Mechanism with single locking facility, Class 3 Hydraulic Gas lift an",
+    "specs": [
+      {
+        "key": "Code",
+        "value": "MBM-531"
+      }
+    ]
+  },
+  {
+    "slug": "mbm-530",
+    "name": "Staff Chair",
+    "model": "MBM-530",
+    "brandSlug": null,
+    "categorySlug": "computer-furniture",
+    "condition": "NEW",
+    "priceMinor": 480000,
+    "warranty": null,
+    "shortDesc": "Seat molded foam with black fabric upholstery, Backrest in high quality black mesh, Fixed PP Armrest, Standard Mechanism with single locking facility, Heavy duty Gas lift and Five ",
+    "specs": [
+      {
+        "key": "Code",
+        "value": "MBM-530"
+      }
+    ]
+  }
+]

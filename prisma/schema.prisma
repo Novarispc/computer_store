@@ -1,0 +1,178 @@
+// Esquire Tech — lean schema for a dealer/reseller catalogue.
+// No customer accounts, no orders, no payments: checkout produces an Enquiry.
+// Enums are string literals validated in src/lib/constants.ts, and JSON is
+// stored in `*Json` text columns (kept from the original SQLite design; both
+// are plain Postgres text/varchar, so nothing here is provider-specific).
+
+generator client {
+  provider      = "prisma-client-js"
+  // `native` covers local dev; `rhel-openssl-3.0.x` is Vercel's runtime, so the
+  // query engine is present after `prisma generate` runs in the Vercel build.
+  binaryTargets = ["native", "rhel-openssl-3.0.x"]
+}
+
+datasource db {
+  provider  = "postgresql"
+  // Pooled connection (Neon's -pooler host) for serverless runtime.
+  url       = env("DATABASE_URL")
+  // Direct connection for `prisma db push` / migrations, which don't work
+  // through the pooler.
+  directUrl = env("DIRECT_URL")
+}
+
+model Category {
+  id          String     @id @default(cuid())
+  slug        String     @unique
+  name        String
+  description String?
+  icon        String? // lucide-react icon name
+  position    Int        @default(0)
+  featured    Boolean    @default(false)
+  parentId    String?
+  parent      Category?  @relation("CategoryTree", fields: [parentId], references: [id], onDelete: SetNull)
+  children    Category[] @relation("CategoryTree")
+  products    Product[]
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  @@index([parentId])
+  @@index([featured])
+}
+
+model Brand {
+  id        String    @id @default(cuid())
+  slug      String    @unique
+  name      String
+  logoUrl   String?
+  featured  Boolean   @default(false)
+  products  Product[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  @@index([featured])
+}
+
+model Product {
+  id             String         @id @default(cuid())
+  slug           String         @unique
+  name           String
+  model          String?
+  description    String         @default("")
+  shortDesc      String?
+  categoryId     String?
+  category       Category?      @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  brandId        String?
+  brand          Brand?         @relation(fields: [brandId], references: [id], onDelete: SetNull)
+  /// Price in paise (INR minor units). Indicative — subject to change.
+  priceMinor     Int
+  compareAtMinor Int?
+  condition      String         @default("NEW") // NEW | REFURBISHED
+  warranty       String?
+  featured       Boolean        @default(false)
+  active         Boolean        @default(true)
+  position       Int            @default(0)
+  images         ProductImage[]
+  specs          ProductSpec[]
+  enquiryItems   EnquiryItem[]
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+
+  @@index([active, featured])
+  @@index([categoryId])
+  @@index([brandId])
+  @@index([priceMinor])
+}
+
+model ProductImage {
+  id        String  @id @default(cuid())
+  productId String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  url       String
+  alt       String?
+  position  Int     @default(0)
+
+  @@index([productId])
+}
+
+model ProductSpec {
+  id        String  @id @default(cuid())
+  productId String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  key       String
+  value     String
+  position  Int     @default(0)
+
+  @@unique([productId, key])
+  @@index([key, value])
+}
+
+model Enquiry {
+  id        String        @id @default(cuid())
+  ref       String        @unique
+  kind      String        @default("QUOTE") // QUOTE | CONTACT
+  status    String        @default("NEW") // NEW | CONTACTED | QUOTED | CLOSED
+  name      String
+  email     String
+  phone     String
+  company   String?
+  city      String?
+  message   String?
+  items     EnquiryItem[]
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+
+  @@index([kind, status])
+  @@index([createdAt])
+}
+
+model EnquiryItem {
+  id        String   @id @default(cuid())
+  enquiryId String
+  enquiry   Enquiry  @relation(fields: [enquiryId], references: [id], onDelete: Cascade)
+  productId String?
+  product   Product? @relation(fields: [productId], references: [id], onDelete: SetNull)
+  /// Snapshot fields — an enquiry must survive deletion of the product.
+  name           String
+  model          String?
+  unitPriceMinor Int
+  quantity       Int      @default(1)
+
+  @@index([enquiryId])
+}
+
+model HomepageSection {
+  id        String   @id @default(cuid())
+  /// HERO | FEATURED | CATEGORY_GRID | BRANDS | SERVICES | TRUST | CTA
+  type      String
+  title     String?
+  subtitle  String?
+  dataJson  String?
+  position  Int      @default(0)
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([active, position])
+}
+
+model Theme {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  description String?
+  active      Boolean  @default(false)
+  /// Full palettes — see src/lib/theme.ts ThemePalette
+  lightJson   String
+  darkJson    String
+  position    Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([active])
+}
+
+model Setting {
+  key       String   @id
+  valueJson String
+  updatedAt DateTime @updatedAt
+}

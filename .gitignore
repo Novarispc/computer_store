@@ -1,0 +1,24 @@
+node_modules
+.next
+out
+build
+.env
+.env*.local
+*.tsbuildinfo
+next-env.d.ts
+
+# Prisma
+prisma/dev.db
+prisma/dev.db-journal
+
+# User-supplied source artwork (processed copies live in public/brand).
+# Anchored with a leading slash: a bare `brand/` also matches
+# src/components/brand/, and Tailwind v4's source detection honours .gitignore,
+# so those components' classes would silently never be generated.
+/brand/
+
+# Admin-uploaded images (product photos + brand assets). The README stays.
+public/uploads/
+public/brand/*.png
+public/brand/*.jpg
+public/brand/*.webp

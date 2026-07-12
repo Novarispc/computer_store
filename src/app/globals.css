@@ -1,0 +1,295 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   Esquire Forge — design tokens
+   --------------------------------------------------------------------------
+   Every value here is overridable at runtime by the active Theme row
+   (see src/lib/theme.ts). The runtime <style id="active-theme"> block only
+   ever reassigns these SAME custom properties — it never introduces new
+   --color-* keys, which is what keeps `@theme inline` statically analyzable
+   for Tailwind v4.
+   ========================================================================== */
+
+:root {
+  /* Surfaces */
+  --background: #f7f8fa;
+  --surface: #ffffff;
+  --card: #ffffff;
+  --card-foreground: #14171c;
+  --foreground: #14171c;
+  --muted: #eef0f4;
+  --muted-foreground: #5c6472;
+
+  /* Lines */
+  --border: #dfe3ea;
+  --hairline: rgba(20, 23, 28, 0.1);
+  --input: #dfe3ea;
+
+  /* Brand */
+  --primary: #e01023;
+  --primary-foreground: #ffffff;
+  --secondary: #3d4655;
+  --secondary-foreground: #ffffff;
+  --accent: #e01023;
+  --accent-foreground: #ffffff;
+  --ring: #e01023;
+
+  /* Signature */
+  --glow: rgba(224, 16, 35, 0.35);
+  --bevel: 12px;
+
+  /* Status */
+  --success: #0f9d58;
+  --danger: #d93025;
+  --warning: #f59e0b;
+}
+
+.dark {
+  --background: #08090b;
+  --surface: #0e1014;
+  --card: #131720;
+  --card-foreground: #e8eaed;
+  --foreground: #e8eaed;
+  --muted: #191d26;
+  --muted-foreground: #8a929e;
+
+  --border: #242a35;
+  --hairline: rgba(255, 255, 255, 0.09);
+  --input: #242a35;
+
+  --primary: #ff2b3d;
+  --primary-foreground: #ffffff;
+  --secondary: #c8cdd6;
+  --secondary-foreground: #08090b;
+  --accent: #ff2b3d;
+  --accent-foreground: #ffffff;
+  --ring: #ff2b3d;
+
+  --glow: rgba(255, 43, 61, 0.45);
+  --bevel: 12px;
+
+  --success: #34d399;
+  --danger: #f87171;
+  --warning: #fbbf24;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-hairline: var(--hairline);
+  --color-input: var(--input);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-ring: var(--ring);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+  --color-warning: var(--warning);
+
+  --font-display: var(--font-saira), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--primary);
+  color: var(--primary-foreground);
+}
+
+/* ==========================================================================
+   The chamfer — Esquire's signature geometry.
+   A cut corner, not a radius. Top-left and bottom-right are sliced, which
+   reads as machined hardware rather than a rounded UI card.
+
+   clip-path discards box-shadow and border, so:
+     - glow  -> filter: drop-shadow(), which follows the clipped silhouette
+     - border-> .chamfer-frame wrapper: a 1px gradient "chrome edge" behind
+               an inset child. Both are clipped, so the edge follows the cut.
+   ========================================================================== */
+
+.chamfer {
+  --b: var(--bevel);
+  clip-path: polygon(
+    var(--b) 0,
+    100% 0,
+    100% calc(100% - var(--b)),
+    calc(100% - var(--b)) 100%,
+    0 100%,
+    0 var(--b)
+  );
+}
+
+/* Small variant for chips, badges, inputs. */
+.chamfer-sm {
+  --b: calc(var(--bevel) * 0.5);
+  clip-path: polygon(
+    var(--b) 0,
+    100% 0,
+    100% calc(100% - var(--b)),
+    calc(100% - var(--b)) 100%,
+    0 100%,
+    0 var(--b)
+  );
+}
+
+/* Chrome hairline edge. Child must also be .chamfer / .chamfer-sm. */
+.chamfer-frame {
+  position: relative;
+  padding: 1px;
+  background: linear-gradient(
+    140deg,
+    var(--hairline) 0%,
+    color-mix(in srgb, var(--foreground) 4%, transparent) 40%,
+    var(--hairline) 100%
+  );
+  transition: background 200ms ease;
+}
+
+.chamfer-frame:hover,
+.chamfer-frame:focus-within {
+  background: linear-gradient(
+    140deg,
+    color-mix(in srgb, var(--primary) 55%, transparent) 0%,
+    var(--hairline) 55%,
+    color-mix(in srgb, var(--primary) 30%, transparent) 100%
+  );
+}
+
+/* Glow follows the chamfered silhouette. */
+.glow-edge {
+  filter: drop-shadow(0 0 0 transparent);
+  transition: filter 200ms ease;
+}
+
+.glow-edge:hover,
+.glow-edge:focus-within {
+  filter: drop-shadow(0 0 14px var(--glow));
+}
+
+/* Glass panel — backdrop blur + chrome edge, never a flat stroke. */
+.glass {
+  background: color-mix(in srgb, var(--card) 72%, transparent);
+  backdrop-filter: blur(14px) saturate(140%);
+}
+
+/* Specular sweep, featured surfaces only. */
+.specular::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    115deg,
+    transparent 40%,
+    color-mix(in srgb, var(--foreground) 6%, transparent) 50%,
+    transparent 60%
+  );
+  opacity: 0;
+  transition: opacity 240ms ease;
+}
+
+.specular:hover::after {
+  opacity: 1;
+}
+
+/* Circuit trace field, radially masked so it never reads as a full grid. */
+.circuit-field {
+  background-image:
+    linear-gradient(to right, var(--hairline) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--hairline) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, #000 20%, transparent 75%);
+}
+
+/* ==========================================================================
+   Focus. An `outline` traces the element's box, not its clip-path, so a
+   chamfered control would show a rectangular ring with corners poking past
+   the cut. Instead the frame's gradient goes solid accent and the silhouette
+   itself glows — the indicator follows the bevel.
+   ========================================================================== */
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.chamfer:focus-visible,
+.chamfer-sm:focus-visible {
+  outline: none;
+}
+
+.chamfer-frame:focus-within {
+  filter: drop-shadow(0 0 12px var(--glow));
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+/* ==========================================================================
+   Motion. Every micro-interaction above is <=240ms and opt-out here.
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .specular::after {
+    display: none;
+  }
+}
+
+/* Scrollbar — matte, unobtrusive. */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-foreground);
+}
