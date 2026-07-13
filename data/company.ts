@@ -71,55 +71,18 @@ export const company = {
   },
 
   /**
-   * Publicly listed on their contact page. Seeded into Setting so it can be
-   * trimmed from the admin panel if Esquire would rather not publish direct
-   * mobile numbers.
+   * Named staff, personal mobile numbers and direct emails were scraped from
+   * Esquire's public contact page during the original build, but are
+   * deliberately NOT committed to source here — this repository is public,
+   * and publishing employees' personal phone numbers to a public git history
+   * isn't this project's call to make.
+   *
+   * The feature stays fully intact: `directory` is seeded into the `store`
+   * Setting row (see prisma/seed.ts) and is editable from Admin → Settings,
+   * so Esquire (or whoever owns this deployment) can populate it themselves,
+   * per-person, if and when they choose to.
    */
-  directory: [
-    {
-      department: "CEO & Operations",
-      name: "Suresh Parekkat",
-      phone: "+91 9447 030 932",
-      email: "sureshp@esquirecomputers.com",
-    },
-    {
-      department: "Sales",
-      name: "Sandhya Poduval",
-      phone: "+91 9745 015 900",
-      email: "sales@esquirecomputers.com",
-    },
-    { department: "Service", name: "Francis Chalisserry", email: "service@esquirecomputers.com" },
-    {
-      department: "Purchase",
-      name: "Muhammed Sahil",
-      phone: "+91 7907 115 022",
-      email: "purchase@esquirecomputers.com",
-    },
-    {
-      department: "Marketing",
-      name: "Amrutha Nair",
-      phone: "+91 8086 807 887",
-      email: "operations@esquirecomputers.com",
-    },
-    {
-      department: "HR",
-      name: "Reshma K Rajan",
-      phone: "+91 8111 99 4816",
-      email: "hresquire@esquirecomputers.com",
-    },
-    {
-      department: "Finance",
-      name: "Alan Franco",
-      phone: "+91 8848 517 345",
-      email: "accounts@esquirecomputers.com",
-    },
-    {
-      department: "Customer Care",
-      name: "Rejitha Anil",
-      phone: "+91 860 6464 422",
-      email: "customercare@esquirecomputers.com",
-    },
-  ] satisfies Person[],
+  directory: [] as Person[],
 
   serviceLines: [
     { label: "Onsite service", numbers: ["0487-2330931", "+91 8111 994 800"] },
