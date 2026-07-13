@@ -45,10 +45,20 @@ export async function POST(request: Request) {
     target = { kind: "product" };
   }
 
-  const result = await saveUpload(file, target);
-  if (!result.ok) {
-    return NextResponse.json(result, { status: 400 });
+  try {
+    const result = await saveUpload(file, target);
+    if (!result.ok) {
+      return NextResponse.json(result, { status: 400 });
+    }
+    return NextResponse.json(result);
+  } catch {
+    // Belt and suspenders: saveUpload() shouldn't throw (every branch returns
+    // a result), but if something unexpected does slip through, the client
+    // must still get clean JSON — not a raw 500 that fails res.json() and
+    // shows up as a confusing "check your connection" message.
+    return NextResponse.json(
+      { ok: false, error: "Something went wrong saving that image. Please try again." },
+      { status: 500 }
+    );
   }
-
-  return NextResponse.json(result);
 }

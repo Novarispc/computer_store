@@ -100,12 +100,29 @@ export async function saveUpload(file: File, target: UploadTarget): Promise<Uplo
     }
   }
 
+  // Running on Vercel with no Blob token: the local-write fallback below would
+  // hit Vercel's read-only filesystem and throw uncaught, which surfaces to
+  // the browser as a broken non-JSON response ("check your connection") with
+  // no clue what actually went wrong. Fail fast with the real reason instead.
+  if (process.env.VERCEL) {
+    return {
+      ok: false,
+      error:
+        "Image uploads aren't configured yet — connect a Blob store to this project " +
+        "(Vercel dashboard → Storage → Create Blob) and redeploy.",
+    };
+  }
+
   // Local dev: write under public/ so the same URLs resolve without Blob.
-  const dir = target.kind === "brand" ? "brand" : "uploads";
-  const absDir = join(process.cwd(), "public", dir);
-  await mkdir(absDir, { recursive: true });
-  await writeFile(join(absDir, filename), bytes);
-  return { ok: true, url: `/${dir}/${filename}` };
+  try {
+    const dir = target.kind === "brand" ? "brand" : "uploads";
+    const absDir = join(process.cwd(), "public", dir);
+    await mkdir(absDir, { recursive: true });
+    await writeFile(join(absDir, filename), bytes);
+    return { ok: true, url: `/${dir}/${filename}` };
+  } catch {
+    return { ok: false, error: "Could not save the file locally. Please try again." };
+  }
 }
 
 /**
