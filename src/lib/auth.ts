@@ -1,13 +1,22 @@
 import { SignJWT, jwtVerify } from "jose";
 import { cookies } from "next/headers";
 import { ADMIN_COOKIE } from "@/lib/constants";
+import { prisma } from "@/lib/prisma";
+import { safeJson } from "@/lib/utils";
+import { SETTING_KEYS } from "@/lib/settings";
+import { verifyPassword } from "@/lib/password";
 
 /**
  * Single admin password, HMAC-signed HttpOnly cookie. No user table, no
  * next-auth — there are no customer accounts in this app, only one operator.
  *
- * jose runs on Web Crypto, which works in Next's edge middleware; bcryptjs and
- * node:crypto do not, which is why this file avoids both.
+ * The session cookie is jose/Web Crypto throughout (works in edge
+ * middleware — see src/proxy.ts). The password itself is hashed with
+ * node:crypto scrypt and stored in the `auth` Setting row, seeded once by
+ * prisma/seed.ts. This file's DB access only ever runs from Node-runtime
+ * Server Actions, never from proxy.ts, so mixing Prisma in here is fine —
+ * it's checkAdminPassword() specifically that would break at the edge, and
+ * that function is never imported by proxy.ts.
  */
 
 const SESSION_TTL_SECONDS = 60 * 60 * 24 * 7; // 7 days
@@ -37,18 +46,14 @@ export async function verifySessionToken(token: string): Promise<boolean> {
   }
 }
 
-/** Constant-time-ish comparison; both inputs are short, fixed-purpose secrets. */
-function passwordMatches(input: string, expected: string): boolean {
-  if (input.length !== expected.length) return false;
-  let diff = 0;
-  for (let i = 0; i < input.length; i++) diff |= input.charCodeAt(i) ^ expected.charCodeAt(i);
-  return diff === 0;
-}
+export async function checkAdminPassword(input: string): Promise<boolean> {
+  if (!input) return false;
 
-export function checkAdminPassword(input: string): boolean {
-  const expected = process.env.ADMIN_PASSWORD;
-  if (!expected) throw new Error("ADMIN_PASSWORD is not set in .env.");
-  return passwordMatches(input, expected);
+  const row = await prisma.setting.findUnique({ where: { key: SETTING_KEYS.auth } });
+  const { passwordHash } = safeJson<{ passwordHash?: string }>(row?.valueJson, {});
+  if (!passwordHash) return false;
+
+  return verifyPassword(input, passwordHash);
 }
 
 export async function setSessionCookie(): Promise<void> {

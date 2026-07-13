@@ -10,7 +10,7 @@ export async function login(formData: FormData): Promise<LoginResult> {
   const password = String(formData.get("password") ?? "");
   const next = String(formData.get("next") ?? "/admin");
 
-  if (!password || !checkAdminPassword(password)) {
+  if (!password || !(await checkAdminPassword(password))) {
     return { ok: false, error: "Incorrect password." };
   }
 

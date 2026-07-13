@@ -17,6 +17,7 @@ import { brands } from "../data/brands.js";
 import { themes } from "../data/themes.js";
 import { company } from "../data/company.js";
 import { services } from "../data/services.js";
+import { hashPassword } from "../src/lib/password.js";
 
 const prisma = new PrismaClient();
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -235,6 +236,29 @@ async function main() {
     });
   }
   console.log(`  settings    store, services`);
+
+  // -- Admin credential -------------------------------------------------------
+  // Create-only, like the theme's `active` flag above: once this row exists it
+  // is the source of truth for the admin password, and re-seeding must never
+  // reset a password that's already been set (there's no change-password UI
+  // yet, so today "already set" only ever means "set by this same seed run" —
+  // but the guard is what makes that safe to add later without surprises).
+  const existingAuth = await prisma.setting.findUnique({ where: { key: "auth" } });
+  if (!existingAuth) {
+    const initialPassword = process.env.ADMIN_PASSWORD;
+    if (!initialPassword) {
+      throw new Error(
+        "ADMIN_PASSWORD must be set in the environment the first time you seed — " +
+          "it is used once, here, to create the admin login. It is not read at login time."
+      );
+    }
+    await prisma.setting.create({
+      data: { key: "auth", valueJson: JSON.stringify({ passwordHash: hashPassword(initialPassword) }) },
+    });
+    console.log(`  admin auth  created from ADMIN_PASSWORD`);
+  } else {
+    console.log(`  admin auth  already set, left unchanged`);
+  }
 
   console.log("\nDone.");
 }

@@ -8,6 +8,7 @@ export const SETTING_KEYS = {
   services: "services",
   media: "media",
   brand: "brand",
+  auth: "auth",
 } as const;
 
 /** Uploaded page imagery, keyed by slot. Values are upload/blob URLs. */
