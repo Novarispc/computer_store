@@ -7,7 +7,10 @@ import { PRICE_DISCLAIMER } from "@/lib/constants";
 import { getStore } from "@/lib/settings";
 import { ButtonLink, Panel } from "@/components/ui";
 
-export const metadata: Metadata = { title: "Quote received" };
+export const metadata: Metadata = {
+  title: "Quote received",
+  robots: { index: false, follow: false },
+};
 
 type Params = { params: Promise<{ ref: string }> };
 

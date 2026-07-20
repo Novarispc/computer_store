@@ -22,7 +22,7 @@ const APPEAR_MS = 900;
 const HOLD_MS = 550;
 const FADE_MS = 500;
 
-export function MascotIntro({ mascotSrc }: { mascotSrc?: string | null }) {
+export function MascotIntro({ mascotSrc, nonce }: { mascotSrc?: string | null; nonce?: string }) {
   const [phase, setPhase] = useState<"idle" | "playing" | "done">("idle");
   const overlay = useRef<HTMLDivElement>(null);
 
@@ -115,7 +115,7 @@ export function MascotIntro({ mascotSrc }: { mascotSrc?: string | null }) {
         </div>
       </div>
 
-      <style>{`
+      <style nonce={nonce}>{`
         @keyframes esq-appear {
           from {
             transform: scale(0.85);

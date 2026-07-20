@@ -22,3 +22,5 @@ public/uploads/
 public/brand/*.png
 public/brand/*.jpg
 public/brand/*.webp
+
+graphify-out/

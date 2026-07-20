@@ -3,9 +3,8 @@ import { MODE_STORAGE_KEY } from "@/lib/constants";
 /**
  * Runs before first paint, inside <head>. Sets the .dark class from stored
  * preference (falling back to the OS) so there is no light-to-dark flash.
- * Deliberately not a next/script component — it must be synchronous.
  */
-export function ThemeInit() {
+export function ThemeInit({ nonce }: { nonce?: string }) {
   const js = `
 (function(){
   try {
@@ -20,5 +19,5 @@ export function ThemeInit() {
   } catch (e) {}
 })();`.trim();
 
-  return <script dangerouslySetInnerHTML={{ __html: js }} />;
+  return <script nonce={nonce} dangerouslySetInnerHTML={{ __html: js }} />;
 }

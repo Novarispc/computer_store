@@ -11,7 +11,28 @@ import { saveUpload, type UploadTarget } from "@/lib/uploads";
  */
 export const runtime = "nodejs";
 
+const MAX_REQUEST_BYTES = 5 * 1024 * 1024 + 128 * 1024;
+
+function isSameOrigin(request: Request): boolean {
+  const origin = request.headers.get("origin");
+  if (!origin) return process.env.NODE_ENV !== "production";
+  try {
+    return origin === new URL(request.url).origin;
+  } catch {
+    return false;
+  }
+}
+
 export async function POST(request: Request) {
+  if (!isSameOrigin(request)) {
+    return NextResponse.json({ ok: false, error: "Invalid request origin." }, { status: 403 });
+  }
+
+  const contentLength = Number(request.headers.get("content-length") ?? 0);
+  if (Number.isFinite(contentLength) && contentLength > MAX_REQUEST_BYTES) {
+    return NextResponse.json({ ok: false, error: "Upload is too large." }, { status: 413 });
+  }
+
   if (!(await isAdmin())) {
     return NextResponse.json({ ok: false, error: "Not authorized." }, { status: 401 });
   }

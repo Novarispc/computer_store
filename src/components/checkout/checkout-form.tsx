@@ -14,7 +14,7 @@ export function CheckoutForm() {
   const hydrated = useCart((s) => s.hydrated);
   const clear = useCart((s) => s.clear);
 
-  const [fields, setFields] = useState({ name: "", email: "", phone: "", company: "", city: "", message: "" });
+  const [fields, setFields] = useState({ name: "", email: "", phone: "", company: "", city: "", message: "", website: "" });
   const [error, setError] = useState<string | null>(null);
   const [fieldErrors, setFieldErrors] = useState<Record<string, string[]>>({});
   const [pending, startTransition] = useTransition();
@@ -61,6 +61,7 @@ export function CheckoutForm() {
   return (
     <div className="grid gap-10 lg:grid-cols-[1fr_320px]">
       <form onSubmit={onSubmit} className="space-y-5">
+        <input name="website" value={fields.website} onChange={update("website")} tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
         <div className="grid gap-5 sm:grid-cols-2">
           <Field label="Name" value={fields.name} onChange={update("name")} required error={fieldErrors.name} />
           <Field label="Phone" type="tel" value={fields.phone} onChange={update("phone")} required error={fieldErrors.phone} />

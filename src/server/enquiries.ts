@@ -3,7 +3,9 @@
 import { z } from "zod";
 import { nanoid } from "nanoid";
 import { revalidatePath } from "next/cache";
+import { headers } from "next/headers";
 import { prisma } from "@/lib/prisma";
+import { checkPublicSubmissionLimit } from "@/lib/rate-limit";
 
 /**
  * Both the contact form and the quote checkout land here. A CONTACT enquiry has
@@ -20,6 +22,8 @@ const ContactSchema = z.object({
   company: z.string().trim().max(80).optional().or(z.literal("")),
   city: z.string().trim().max(60).optional().or(z.literal("")),
   message: z.string().trim().min(5, "Add a short message").max(2000),
+  // Hidden from people, filled by basic bots.
+  website: z.string().trim().max(0).optional(),
 });
 
 const QuoteSchema = ContactSchema.extend({
@@ -31,7 +35,8 @@ const QuoteSchema = ContactSchema.extend({
         quantity: z.number().int().min(1).max(999),
       })
     )
-    .min(1, "Your quote list is empty"),
+    .min(1, "Your quote list is empty")
+    .refine((items) => new Set(items.map((item) => item.slug)).size === items.length, "Duplicate products are not allowed"),
 });
 
 export type ActionResult =
@@ -42,9 +47,25 @@ function fail(error: string, fieldErrors?: Record<string, string[]>): ActionResu
   return { ok: false, error, fieldErrors };
 }
 
+async function publicSubmissionLimit(kind: "contact" | "quote"): Promise<ActionResult | null> {
+  const requestHeaders = await headers();
+  const address =
+    requestHeaders.get("x-forwarded-for")?.split(",")[0]?.trim() ??
+    requestHeaders.get("x-real-ip");
+
+  // Local development and unusual proxies may not expose an address.
+  if (!address) return null;
+
+  const result = await checkPublicSubmissionLimit(kind + ":" + address);
+  return result.allowed
+    ? null
+    : fail("Too many requests. Please try again in " + result.retryAfterSeconds + " seconds.");
+}
+
 /** Short, human-quotable reference: ESQ-8F3K2M. */
 function makeRef(): string {
-  return `ESQ-${nanoid(6).toUpperCase().replace(/[^A-Z0-9]/g, "X")}`;
+  // This reference is shown in a public URL, so it is an unguessable bearer value.
+  return `ESQ-${nanoid(16).toUpperCase().replace(/[^A-Z0-9]/g, "X")}`;
 }
 
 export async function createContactEnquiry(formData: FormData): Promise<ActionResult> {
@@ -55,6 +76,7 @@ export async function createContactEnquiry(formData: FormData): Promise<ActionRe
     company: formData.get("company") ?? "",
     city: formData.get("city") ?? "",
     message: formData.get("message"),
+    website: formData.get("website") ?? "",
   });
 
   if (!parsed.success) {
@@ -62,6 +84,9 @@ export async function createContactEnquiry(formData: FormData): Promise<ActionRe
   }
 
   const d = parsed.data;
+  const limitFailure = await publicSubmissionLimit("contact");
+  if (limitFailure) return limitFailure;
+
   const enquiry = await prisma.enquiry.create({
     data: {
       ref: makeRef(),
@@ -94,6 +119,8 @@ export async function createQuoteEnquiry(input: {
     return fail("Please check the highlighted fields.", z.flattenError(parsed.error).fieldErrors);
   }
   const d = parsed.data;
+  const limitFailure = await publicSubmissionLimit("quote");
+  if (limitFailure) return limitFailure;
 
   // Re-read prices server-side. A client could otherwise post any figure.
   const slugs = d.items.map((i) => i.slug);
@@ -102,8 +129,8 @@ export async function createQuoteEnquiry(input: {
     select: { id: true, slug: true, name: true, model: true, priceMinor: true },
   });
 
-  if (products.length === 0) {
-    return fail("None of those products are available any more. Please rebuild your list.");
+  if (products.length !== slugs.length) {
+    return fail("One or more products are no longer available. Please rebuild your list.");
   }
 
   const bySlug = new Map(products.map((p) => [p.slug, p]));

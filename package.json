@@ -9,20 +9,28 @@
     "start": "next start -p 3035",
     "postinstall": "prisma generate",
     "typecheck": "tsc --noEmit",
-    "lint": "next lint",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:validate": "prisma validate",
+    "verify": "npm run typecheck && npm run lint && npm run test && npm run db:validate",
     "db:push": "prisma db push",
     "db:seed": "tsx prisma/seed.ts",
     "db:studio": "prisma studio",
+    "admin:rotate-password": "tsx scripts/rotate-admin-password.ts",
     "normalize": "tsx scripts/normalize-pricelists.ts",
-    "setup": "prisma db push && tsx prisma/seed.ts"
+    "setup": "prisma db push && tsx prisma/seed.ts",
+    "audit:production": "npm audit --omit=dev --audit-level=high"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
   },
   "dependencies": {
-    "@prisma/client": "6.16.2",
+    "@prisma/client": "^6.19.3",
     "@react-three/drei": "10.7.7",
     "@react-three/fiber": "9.6.1",
+    "@upstash/ratelimit": "^2.0.8",
+    "@upstash/redis": "^1.38.0",
     "@vercel/blob": "2.6.1",
     "clsx": "2.1.1",
     "jose": "6.2.3",
@@ -42,9 +50,12 @@
     "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
     "@types/three": "0.185.1",
-    "prisma": "6.16.2",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.2.10",
+    "prisma": "^6.19.3",
     "tailwindcss": "4.3.2",
     "tsx": "4.23.0",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "vitest": "^4.1.10"
   }
 }
