@@ -246,9 +246,9 @@ async function main() {
   const existingAuth = await prisma.setting.findUnique({ where: { key: "auth" } });
   if (!existingAuth) {
     const initialPassword = process.env.ADMIN_PASSWORD;
-    if (!initialPassword) {
+    if (!initialPassword || initialPassword.length < 16) {
       throw new Error(
-        "ADMIN_PASSWORD must be set in the environment the first time you seed — " +
+        "ADMIN_PASSWORD must be at least 16 characters the first time you seed — " +
           "it is used once, here, to create the admin login. It is not read at login time."
       );
     }

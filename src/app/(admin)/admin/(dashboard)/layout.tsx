@@ -1,12 +1,15 @@
 import { AdminSidebar } from "@/components/admin/sidebar";
 import { getCounts } from "@/lib/queries";
 import { getBrandAssets } from "@/lib/brand-assets";
+import { requireAdmin } from "@/lib/auth";
 
 // The admin is auth-gated and per-request — never prerender it. This also keeps
 // the whole /admin section out of the build's static-generation DB reads.
 export const dynamic = "force-dynamic";
 
 export default async function DashboardLayout({ children }: { children: React.ReactNode }) {
+  // Keep the final data boundary protected even if routing middleware changes.
+  await requireAdmin();
   const [counts, brand] = await Promise.all([getCounts(), getBrandAssets()]);
 
   return (

@@ -21,7 +21,8 @@ import { nanoid } from "nanoid";
  * from our own origin it would be a stored-XSS vector. Raster only.
  */
 
-const MAX_BYTES = 5 * 1024 * 1024; // 5 MB
+// Leave room for multipart framing beneath Vercel's 4.5 MB function payload cap.
+export const MAX_UPLOAD_BYTES = 4 * 1024 * 1024;
 
 const ALLOWED: Record<string, string> = {
   "image/png": "png",
@@ -68,8 +69,8 @@ export async function saveUpload(file: File, target: UploadTarget): Promise<Uplo
     return { ok: false, error: "No file received." };
   }
   if (file.size === 0) return { ok: false, error: "That file is empty." };
-  if (file.size > MAX_BYTES) {
-    return { ok: false, error: "That image is over 5 MB. Please resize it and try again." };
+  if (file.size > MAX_UPLOAD_BYTES) {
+    return { ok: false, error: "That image is over 4 MB. Please resize it and try again." };
   }
 
   const declared = ALLOWED[file.type];

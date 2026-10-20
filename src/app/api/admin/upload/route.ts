@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { isAdmin } from "@/lib/auth";
-import { saveUpload, type UploadTarget } from "@/lib/uploads";
+import { MAX_UPLOAD_BYTES, saveUpload, type UploadTarget } from "@/lib/uploads";
 
 /**
  * Image intake for the admin panel.
@@ -11,7 +11,7 @@ import { saveUpload, type UploadTarget } from "@/lib/uploads";
  */
 export const runtime = "nodejs";
 
-const MAX_REQUEST_BYTES = 5 * 1024 * 1024 + 128 * 1024;
+const MAX_REQUEST_BYTES = MAX_UPLOAD_BYTES + 256 * 1024;
 
 function isSameOrigin(request: Request): boolean {
   const origin = request.headers.get("origin");
@@ -28,7 +28,16 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: false, error: "Invalid request origin." }, { status: 403 });
   }
 
-  const contentLength = Number(request.headers.get("content-length") ?? 0);
+  const contentType = request.headers.get("content-type") ?? "";
+  if (!contentType.toLowerCase().startsWith("multipart/form-data;")) {
+    return NextResponse.json({ ok: false, error: "Expected a multipart file upload." }, { status: 415 });
+  }
+
+  const rawContentLength = request.headers.get("content-length");
+  const contentLength = rawContentLength ? Number(rawContentLength) : Number.NaN;
+  if (process.env.NODE_ENV === "production" && (!Number.isSafeInteger(contentLength) || contentLength <= 0)) {
+    return NextResponse.json({ ok: false, error: "A valid Content-Length header is required." }, { status: 411 });
+  }
   if (Number.isFinite(contentLength) && contentLength > MAX_REQUEST_BYTES) {
     return NextResponse.json({ ok: false, error: "Upload is too large." }, { status: 413 });
   }

@@ -4,14 +4,12 @@ import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { checkAdminPassword, setSessionCookie, clearSessionCookie } from "@/lib/auth";
 import { checkAdminLoginLimit, resetAdminLoginLimit } from "@/lib/rate-limit";
+import { getClientAddress } from "@/lib/client-address";
 
 export type LoginResult = { ok: false; error: string };
 
 function loginRateLimitKey(requestHeaders: Headers): string {
-  const address =
-    requestHeaders.get("x-forwarded-for")?.split(",")[0]?.trim() ??
-    requestHeaders.get("x-real-ip") ??
-    "unknown";
+  const address = getClientAddress(requestHeaders) ?? "unknown";
   return "admin-login:" + address;
 }
 

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { CheckCircle2 } from "lucide-react";
-import { getEnquiryByRef } from "@/server/enquiries";
+import { getQuoteByRef } from "@/lib/quote";
 import { formatMinor } from "@/lib/money";
 import { PRICE_DISCLAIMER } from "@/lib/constants";
 import { getStore } from "@/lib/settings";
@@ -16,8 +16,8 @@ type Params = { params: Promise<{ ref: string }> };
 
 export default async function QuoteConfirmationPage({ params }: Params) {
   const { ref } = await params;
-  const [enquiry, store] = await Promise.all([getEnquiryByRef(ref), getStore()]);
-  if (!enquiry || enquiry.kind !== "QUOTE") notFound();
+  const [enquiry, store] = await Promise.all([getQuoteByRef(ref), getStore()]);
+  if (!enquiry) notFound();
 
   const total = enquiry.items.reduce((n, i) => n + i.unitPriceMinor * i.quantity, 0);
 
@@ -28,9 +28,8 @@ export default async function QuoteConfirmationPage({ params }: Params) {
         Quote request received
       </h1>
       <p className="mt-3 text-muted-foreground">
-        Reference <span className="font-mono text-foreground">{enquiry.ref}</span>. We will call or
-        email you at <span className="text-foreground">{enquiry.phone}</span> within one business
-        day with confirmed pricing.
+        Reference <span className="font-mono text-foreground">{enquiry.ref}</span>. We will contact
+        you using the details you provided within one business day with confirmed pricing.
       </p>
 
       <Panel className="mt-10 p-6 text-left">

@@ -6,6 +6,7 @@ import { revalidatePath } from "next/cache";
 import { headers } from "next/headers";
 import { prisma } from "@/lib/prisma";
 import { checkPublicSubmissionLimit } from "@/lib/rate-limit";
+import { getClientAddress } from "@/lib/client-address";
 
 /**
  * Both the contact form and the quote checkout land here. A CONTACT enquiry has
@@ -36,6 +37,7 @@ const QuoteSchema = ContactSchema.extend({
       })
     )
     .min(1, "Your quote list is empty")
+    .max(100, "A quote can contain at most 100 products")
     .refine((items) => new Set(items.map((item) => item.slug)).size === items.length, "Duplicate products are not allowed"),
 });
 
@@ -46,15 +48,10 @@ export type ActionResult =
 function fail(error: string, fieldErrors?: Record<string, string[]>): ActionResult {
   return { ok: false, error, fieldErrors };
 }
-
 async function publicSubmissionLimit(kind: "contact" | "quote"): Promise<ActionResult | null> {
   const requestHeaders = await headers();
-  const address =
-    requestHeaders.get("x-forwarded-for")?.split(",")[0]?.trim() ??
-    requestHeaders.get("x-real-ip");
-
-  // Local development and unusual proxies may not expose an address.
-  if (!address) return null;
+  // A shared fallback bucket fails closed when the trusted ingress supplies no IP.
+  const address = getClientAddress(requestHeaders) ?? "unknown";
 
   const result = await checkPublicSubmissionLimit(kind + ":" + address);
   return result.allowed
@@ -167,6 +164,4 @@ export async function createQuoteEnquiry(input: {
   return { ok: true, ref: enquiry.ref };
 }
 
-export async function getEnquiryByRef(ref: string) {
-  return prisma.enquiry.findUnique({ where: { ref }, include: { items: true } });
-}
+// Public read helpers belong in server-only modules, never in this Server Action file.
