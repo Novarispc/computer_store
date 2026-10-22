@@ -12,12 +12,7 @@ generator client {
 }
 
 datasource db {
-  provider  = "postgresql"
-  // Pooled connection (Neon's -pooler host) for serverless runtime.
-  url       = env("DATABASE_URL")
-  // Direct connection for `prisma db push` / migrations, which don't work
-  // through the pooler.
-  directUrl = env("DIRECT_URL")
+  provider = "postgresql"
 }
 
 model Category {

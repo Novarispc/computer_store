@@ -8,6 +8,7 @@
  */
 
 import { PrismaClient } from "@prisma/client";
+import { PrismaPg } from "@prisma/adapter-pg";
 import { readFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -19,7 +20,9 @@ import { company } from "../data/company.js";
 import { services } from "../data/services.js";
 import { hashPassword } from "../src/lib/password.js";
 
-const prisma = new PrismaClient();
+const connectionString = process.env.DIRECT_URL ?? process.env.DATABASE_URL;
+if (!connectionString) throw new Error("DIRECT_URL or DATABASE_URL is required.");
+const prisma = new PrismaClient({ adapter: new PrismaPg({ connectionString }) });
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
 type ProductSeed = {
